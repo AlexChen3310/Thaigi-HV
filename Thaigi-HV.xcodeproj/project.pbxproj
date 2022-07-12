@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00DA1147B4E899366D224202 /* Pods_Thaigi_HVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D782E70E6A8AEF97B77488D /* Pods_Thaigi_HVTests.framework */; };
+		B07845A199DC50B6F8CA502D /* Pods_Thaigi_HV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C4E737D137D2B5B807F093 /* Pods_Thaigi_HV.framework */; };
 		CE48BDCA287D26DD007A31D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */; };
 		CE48BDCC287D26DD007A31D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */; };
 		CE48BDCE287D26DD007A31D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDCD287D26DD007A31D2 /* ViewController.swift */; };
@@ -16,6 +18,56 @@
 		CE48BDE1287D26DE007A31D2 /* Thaigi_HVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDE0287D26DE007A31D2 /* Thaigi_HVTests.swift */; };
 		CE48BDEB287D26DE007A31D2 /* Thaigi_HVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDEA287D26DE007A31D2 /* Thaigi_HVUITests.swift */; };
 		CE48BDED287D26DE007A31D2 /* Thaigi_HVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDEC287D26DE007A31D2 /* Thaigi_HVUITestsLaunchTests.swift */; };
+		CE48BDFA287D28A0007A31D2 /* Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDF9287D28A0007A31D2 /* Arguments.swift */; };
+		CE48BE1B287D28BC007A31D2 /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDFC287D28BC007A31D2 /* OptionalExtension.swift */; };
+		CE48BE1C287D28BC007A31D2 /* NSLayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDFD287D28BC007A31D2 /* NSLayoutConstraintExtension.swift */; };
+		CE48BE1D287D28BC007A31D2 /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDFE287D28BC007A31D2 /* AnimationExtension.swift */; };
+		CE48BE1E287D28BC007A31D2 /* UIImageView+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDFF287D28BC007A31D2 /* UIImageView+GIF.swift */; };
+		CE48BE1F287D28BC007A31D2 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE00287D28BC007A31D2 /* UIImageViewExtension.swift */; };
+		CE48BE20287D28BC007A31D2 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE01287D28BC007A31D2 /* CollectionExtension.swift */; };
+		CE48BE21287D28BC007A31D2 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE02287D28BC007A31D2 /* UIColorExtension.swift */; };
+		CE48BE22287D28BC007A31D2 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE03287D28BC007A31D2 /* NotificationExtension.swift */; };
+		CE48BE23287D28BC007A31D2 /* CGRect+StringFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE04287D28BC007A31D2 /* CGRect+StringFont.swift */; };
+		CE48BE24287D28BC007A31D2 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE05287D28BC007A31D2 /* UITextFieldExtension.swift */; };
+		CE48BE25287D28BC007A31D2 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE06287D28BC007A31D2 /* UIApplicationExtension.swift */; };
+		CE48BE26287D28BC007A31D2 /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE07287D28BC007A31D2 /* CellIdentifier.swift */; };
+		CE48BE27287D28BC007A31D2 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE08287D28BC007A31D2 /* UIViewControllerExtension.swift */; };
+		CE48BE28287D28BC007A31D2 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE09287D28BC007A31D2 /* BundleExtension.swift */; };
+		CE48BE29287D28BC007A31D2 /* MoyaProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE0A287D28BC007A31D2 /* MoyaProviderExtension.swift */; };
+		CE48BE2A287D28BC007A31D2 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE0B287D28BC007A31D2 /* Builder.swift */; };
+		CE48BE2B287D28BC007A31D2 /* ResultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE0C287D28BC007A31D2 /* ResultExtension.swift */; };
+		CE48BE2C287D28BC007A31D2 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE0D287D28BC007A31D2 /* UIViewExtension.swift */; };
+		CE48BE2D287D28BC007A31D2 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE0E287D28BC007A31D2 /* URLExtension.swift */; };
+		CE48BE2E287D28BC007A31D2 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE0F287D28BC007A31D2 /* ButtonExtension.swift */; };
+		CE48BE2F287D28BC007A31D2 /* NSAttritubedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE10287D28BC007A31D2 /* NSAttritubedStringExtension.swift */; };
+		CE48BE30287D28BC007A31D2 /* BoolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE11287D28BC007A31D2 /* BoolExtension.swift */; };
+		CE48BE31287D28BC007A31D2 /* FloatingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE12287D28BC007A31D2 /* FloatingExtension.swift */; };
+		CE48BE32287D28BC007A31D2 /* JSONCoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE13287D28BC007A31D2 /* JSONCoderExtension.swift */; };
+		CE48BE33287D28BC007A31D2 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE14287D28BC007A31D2 /* StringExtension.swift */; };
+		CE48BE34287D28BC007A31D2 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE15287D28BC007A31D2 /* DictionaryExtension.swift */; };
+		CE48BE35287D28BC007A31D2 /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE16287D28BC007A31D2 /* ErrorExtension.swift */; };
+		CE48BE36287D28BC007A31D2 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE17287D28BC007A31D2 /* UIImageExtension.swift */; };
+		CE48BE37287D28BC007A31D2 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE18287D28BC007A31D2 /* UserDefaultsExtension.swift */; };
+		CE48BE38287D28BC007A31D2 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE19287D28BC007A31D2 /* DateExtension.swift */; };
+		CE48BE39287D28BC007A31D2 /* UITableViewExptension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE1A287D28BC007A31D2 /* UITableViewExptension.swift */; };
+		CE48BFB9287D45D0007A31D2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFAD287D45D0007A31D2 /* Strings.swift */; };
+		CE48BFBA287D45D0007A31D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFAE287D45D0007A31D2 /* Localizable.strings */; };
+		CE48BFBB287D45D0007A31D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFB0287D45D0007A31D2 /* InfoPlist.strings */; };
+		CE48BFBC287D45D0007A31D2 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFB4287D45D0007A31D2 /* LanguageManager.swift */; };
+		CE48BFC4287D4642007A31D2 /* InputTextViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFC2287D4642007A31D2 /* InputTextViewCellViewModel.swift */; };
+		CE48BFC5287D4642007A31D2 /* DefaultCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFC3287D4642007A31D2 /* DefaultCellViewModel.swift */; };
+		CE48BFC7287D46AA007A31D2 /* ViewModelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFC6287D46AA007A31D2 /* ViewModelable.swift */; };
+		CE48BFC9287D46C7007A31D2 /* ViewControllerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFC8287D46C7007A31D2 /* ViewControllerable.swift */; };
+		CE48BFCC287D46D8007A31D2 /* HorizontalCellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFCA287D46D7007A31D2 /* HorizontalCellable.swift */; };
+		CE48BFCD287D46D8007A31D2 /* PageViewModelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFCB287D46D7007A31D2 /* PageViewModelable.swift */; };
+		CE48BFD5287D4708007A31D2 /* ShareJSONResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFD1287D4708007A31D2 /* ShareJSONResponse.swift */; };
+		CE48BFDD287D4776007A31D2 /* InputTextCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFD7287D4774007A31D2 /* InputTextCCell.swift */; };
+		CE48BFDE287D4776007A31D2 /* InputTextTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFD8287D4774007A31D2 /* InputTextTCell.xib */; };
+		CE48BFDF287D4776007A31D2 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFD9287D4775007A31D2 /* InputTextView.swift */; };
+		CE48BFE0287D4776007A31D2 /* InputTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFDA287D4775007A31D2 /* InputTextView.xib */; };
+		CE48BFE1287D4776007A31D2 /* InputTextTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFDB287D4776007A31D2 /* InputTextTCell.swift */; };
+		CE48BFE2287D4776007A31D2 /* InputTextCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFDC287D4776007A31D2 /* InputTextCCell.xib */; };
+		CF5B10DA12A85D183C3B46C6 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +88,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D782E70E6A8AEF97B77488D /* Pods_Thaigi_HVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thaigi_HVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7B6F7E052ECB64EE8DFFFC /* Pods-Thaigi-HV-Thaigi-HVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV-Thaigi-HVUITests.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1CBBE352ABFBA5F12464364E /* Pods-Thaigi-HV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV.debug.xcconfig"; sourceTree = "<group>"; };
+		51612306F60E9569EF0B7EE1 /* Pods-Thaigi-HVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HVTests.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HVTests/Pods-Thaigi-HVTests.release.xcconfig"; sourceTree = "<group>"; };
+		6474B17DD6869F6A5A3F7FDE /* Pods-Thaigi-HVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HVTests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HVTests/Pods-Thaigi-HVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C4E737D137D2B5B807F093 /* Pods_Thaigi_HV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thaigi_HV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thaigi_HV_Thaigi_HVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE48BDC6287D26DD007A31D2 /* Thaigi-HV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thaigi-HV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +108,63 @@
 		CE48BDE6287D26DE007A31D2 /* Thaigi-HVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thaigi-HVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE48BDEA287D26DE007A31D2 /* Thaigi_HVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thaigi_HVUITests.swift; sourceTree = "<group>"; };
 		CE48BDEC287D26DE007A31D2 /* Thaigi_HVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thaigi_HVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE48BDF9287D28A0007A31D2 /* Arguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arguments.swift; sourceTree = "<group>"; };
+		CE48BDFC287D28BC007A31D2 /* OptionalExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
+		CE48BDFD287D28BC007A31D2 /* NSLayoutConstraintExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtension.swift; sourceTree = "<group>"; };
+		CE48BDFE287D28BC007A31D2 /* AnimationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
+		CE48BDFF287D28BC007A31D2 /* UIImageView+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+GIF.swift"; sourceTree = "<group>"; };
+		CE48BE00287D28BC007A31D2 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		CE48BE01287D28BC007A31D2 /* CollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
+		CE48BE02287D28BC007A31D2 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		CE48BE03287D28BC007A31D2 /* NotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		CE48BE04287D28BC007A31D2 /* CGRect+StringFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+StringFont.swift"; sourceTree = "<group>"; };
+		CE48BE05287D28BC007A31D2 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		CE48BE06287D28BC007A31D2 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		CE48BE07287D28BC007A31D2 /* CellIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
+		CE48BE08287D28BC007A31D2 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		CE48BE09287D28BC007A31D2 /* BundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		CE48BE0A287D28BC007A31D2 /* MoyaProviderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaProviderExtension.swift; sourceTree = "<group>"; };
+		CE48BE0B287D28BC007A31D2 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		CE48BE0C287D28BC007A31D2 /* ResultExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultExtension.swift; sourceTree = "<group>"; };
+		CE48BE0D287D28BC007A31D2 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		CE48BE0E287D28BC007A31D2 /* URLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		CE48BE0F287D28BC007A31D2 /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		CE48BE10287D28BC007A31D2 /* NSAttritubedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttritubedStringExtension.swift; sourceTree = "<group>"; };
+		CE48BE11287D28BC007A31D2 /* BoolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolExtension.swift; sourceTree = "<group>"; };
+		CE48BE12287D28BC007A31D2 /* FloatingExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingExtension.swift; sourceTree = "<group>"; };
+		CE48BE13287D28BC007A31D2 /* JSONCoderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONCoderExtension.swift; sourceTree = "<group>"; };
+		CE48BE14287D28BC007A31D2 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		CE48BE15287D28BC007A31D2 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		CE48BE16287D28BC007A31D2 /* ErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtension.swift; sourceTree = "<group>"; };
+		CE48BE17287D28BC007A31D2 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		CE48BE18287D28BC007A31D2 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		CE48BE19287D28BC007A31D2 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		CE48BE1A287D28BC007A31D2 /* UITableViewExptension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExptension.swift; sourceTree = "<group>"; };
+		CE48BFAD287D45D0007A31D2 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		CE48BFAF287D45D0007A31D2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CE48BFB1287D45D0007A31D2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CE48BFB2287D45D0007A31D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE48BFB3287D45D0007A31D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE48BFB4287D45D0007A31D2 /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		CE48BFB5287D45D0007A31D2 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE48BFB6287D45D0007A31D2 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE48BFB7287D45D0007A31D2 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE48BFB8287D45D0007A31D2 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE48BFC2287D4642007A31D2 /* InputTextViewCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextViewCellViewModel.swift; sourceTree = "<group>"; };
+		CE48BFC3287D4642007A31D2 /* DefaultCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCellViewModel.swift; sourceTree = "<group>"; };
+		CE48BFC6287D46AA007A31D2 /* ViewModelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelable.swift; sourceTree = "<group>"; };
+		CE48BFC8287D46C7007A31D2 /* ViewControllerable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerable.swift; sourceTree = "<group>"; };
+		CE48BFCA287D46D7007A31D2 /* HorizontalCellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCellable.swift; sourceTree = "<group>"; };
+		CE48BFCB287D46D7007A31D2 /* PageViewModelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewModelable.swift; sourceTree = "<group>"; };
+		CE48BFD1287D4708007A31D2 /* ShareJSONResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareJSONResponse.swift; sourceTree = "<group>"; };
+		CE48BFD7287D4774007A31D2 /* InputTextCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextCCell.swift; sourceTree = "<group>"; };
+		CE48BFD8287D4774007A31D2 /* InputTextTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputTextTCell.xib; sourceTree = "<group>"; };
+		CE48BFD9287D4775007A31D2 /* InputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		CE48BFDA287D4775007A31D2 /* InputTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputTextView.xib; sourceTree = "<group>"; };
+		CE48BFDB287D4776007A31D2 /* InputTextTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextTCell.swift; sourceTree = "<group>"; };
+		CE48BFDC287D4776007A31D2 /* InputTextCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputTextCCell.xib; sourceTree = "<group>"; };
+		D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV.release.xcconfig"; sourceTree = "<group>"; };
+		E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07845A199DC50B6F8CA502D /* Pods_Thaigi_HV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DA1147B4E899366D224202 /* Pods_Thaigi_HVTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +188,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5B10DA12A85D183C3B46C6 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02E81F385ED20097D680FCB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4C4E737D137D2B5B807F093 /* Pods_Thaigi_HV.framework */,
+				B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */,
+				0D782E70E6A8AEF97B77488D /* Pods_Thaigi_HVTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		568E2D80B8D7E70D232C8EB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CBBE352ABFBA5F12464364E /* Pods-Thaigi-HV.debug.xcconfig */,
+				D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */,
+				E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */,
+				0D7B6F7E052ECB64EE8DFFFC /* Pods-Thaigi-HV-Thaigi-HVUITests.release.xcconfig */,
+				6474B17DD6869F6A5A3F7FDE /* Pods-Thaigi-HVTests.debug.xcconfig */,
+				51612306F60E9569EF0B7EE1 /* Pods-Thaigi-HVTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE48BDBD287D26DD007A31D2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +225,8 @@
 				CE48BDDF287D26DE007A31D2 /* Thaigi-HVTests */,
 				CE48BDE9287D26DE007A31D2 /* Thaigi-HVUITests */,
 				CE48BDC7287D26DD007A31D2 /* Products */,
+				568E2D80B8D7E70D232C8EB2 /* Pods */,
+				02E81F385ED20097D680FCB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +243,10 @@
 		CE48BDC8287D26DD007A31D2 /* Thaigi-HV */ = {
 			isa = PBXGroup;
 			children = (
+				CE48BDF9287D28A0007A31D2 /* Arguments.swift */,
+				CE48BFAC287D45D0007A31D2 /* Strings */,
+				CE48BFBD287D4626007A31D2 /* Shared */,
+				CE48BDFB287D28BC007A31D2 /* Extension */,
 				CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */,
 				CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */,
 				CE48BDCD287D26DD007A31D2 /* ViewController.swift */,
@@ -127,6 +275,115 @@
 			path = "Thaigi-HVUITests";
 			sourceTree = "<group>";
 		};
+		CE48BDFB287D28BC007A31D2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BDFC287D28BC007A31D2 /* OptionalExtension.swift */,
+				CE48BDFD287D28BC007A31D2 /* NSLayoutConstraintExtension.swift */,
+				CE48BDFE287D28BC007A31D2 /* AnimationExtension.swift */,
+				CE48BDFF287D28BC007A31D2 /* UIImageView+GIF.swift */,
+				CE48BE00287D28BC007A31D2 /* UIImageViewExtension.swift */,
+				CE48BE01287D28BC007A31D2 /* CollectionExtension.swift */,
+				CE48BE02287D28BC007A31D2 /* UIColorExtension.swift */,
+				CE48BE03287D28BC007A31D2 /* NotificationExtension.swift */,
+				CE48BE04287D28BC007A31D2 /* CGRect+StringFont.swift */,
+				CE48BE05287D28BC007A31D2 /* UITextFieldExtension.swift */,
+				CE48BE06287D28BC007A31D2 /* UIApplicationExtension.swift */,
+				CE48BE07287D28BC007A31D2 /* CellIdentifier.swift */,
+				CE48BE08287D28BC007A31D2 /* UIViewControllerExtension.swift */,
+				CE48BE09287D28BC007A31D2 /* BundleExtension.swift */,
+				CE48BE0A287D28BC007A31D2 /* MoyaProviderExtension.swift */,
+				CE48BE0B287D28BC007A31D2 /* Builder.swift */,
+				CE48BE0C287D28BC007A31D2 /* ResultExtension.swift */,
+				CE48BE0D287D28BC007A31D2 /* UIViewExtension.swift */,
+				CE48BE0E287D28BC007A31D2 /* URLExtension.swift */,
+				CE48BE0F287D28BC007A31D2 /* ButtonExtension.swift */,
+				CE48BE10287D28BC007A31D2 /* NSAttritubedStringExtension.swift */,
+				CE48BE11287D28BC007A31D2 /* BoolExtension.swift */,
+				CE48BE12287D28BC007A31D2 /* FloatingExtension.swift */,
+				CE48BE13287D28BC007A31D2 /* JSONCoderExtension.swift */,
+				CE48BE14287D28BC007A31D2 /* StringExtension.swift */,
+				CE48BE15287D28BC007A31D2 /* DictionaryExtension.swift */,
+				CE48BE16287D28BC007A31D2 /* ErrorExtension.swift */,
+				CE48BE17287D28BC007A31D2 /* UIImageExtension.swift */,
+				CE48BE18287D28BC007A31D2 /* UserDefaultsExtension.swift */,
+				CE48BE19287D28BC007A31D2 /* DateExtension.swift */,
+				CE48BE1A287D28BC007A31D2 /* UITableViewExptension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE48BFAC287D45D0007A31D2 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BFAD287D45D0007A31D2 /* Strings.swift */,
+				CE48BFAE287D45D0007A31D2 /* Localizable.strings */,
+				CE48BFB0287D45D0007A31D2 /* InfoPlist.strings */,
+				CE48BFB4287D45D0007A31D2 /* LanguageManager.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		CE48BFBD287D4626007A31D2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BFD6287D474F007A31D2 /* View */,
+				CE48BFBE287D4626007A31D2 /* ViewModel */,
+				CE48BFBF287D4626007A31D2 /* Protocol */,
+				CE48BFC0287D4626007A31D2 /* DataModel */,
+				CE48BFC1287D4626007A31D2 /* ViewController */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CE48BFBE287D4626007A31D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BFC3287D4642007A31D2 /* DefaultCellViewModel.swift */,
+				CE48BFC2287D4642007A31D2 /* InputTextViewCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE48BFBF287D4626007A31D2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BFCA287D46D7007A31D2 /* HorizontalCellable.swift */,
+				CE48BFCB287D46D7007A31D2 /* PageViewModelable.swift */,
+				CE48BFC8287D46C7007A31D2 /* ViewControllerable.swift */,
+				CE48BFC6287D46AA007A31D2 /* ViewModelable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CE48BFC0287D4626007A31D2 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BFD1287D4708007A31D2 /* ShareJSONResponse.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CE48BFC1287D4626007A31D2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE48BFD6287D474F007A31D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BFD7287D4774007A31D2 /* InputTextCCell.swift */,
+				CE48BFDC287D4776007A31D2 /* InputTextCCell.xib */,
+				CE48BFDB287D4776007A31D2 /* InputTextTCell.swift */,
+				CE48BFD8287D4774007A31D2 /* InputTextTCell.xib */,
+				CE48BFD9287D4775007A31D2 /* InputTextView.swift */,
+				CE48BFDA287D4775007A31D2 /* InputTextView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +391,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE48BDF0287D26DE007A31D2 /* Build configuration list for PBXNativeTarget "Thaigi-HV" */;
 			buildPhases = (
+				80BFF35CE500080F5959D8C6 /* [CP] Check Pods Manifest.lock */,
 				CE48BDC2287D26DD007A31D2 /* Sources */,
 				CE48BDC3287D26DD007A31D2 /* Frameworks */,
 				CE48BDC4287D26DD007A31D2 /* Resources */,
+				19189FA6BF393BF9E01D277B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +410,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE48BDF3287D26DE007A31D2 /* Build configuration list for PBXNativeTarget "Thaigi-HVTests" */;
 			buildPhases = (
+				CA5AFBE3417FF9EF9A44364E /* [CP] Check Pods Manifest.lock */,
 				CE48BDD8287D26DE007A31D2 /* Sources */,
 				CE48BDD9287D26DE007A31D2 /* Frameworks */,
 				CE48BDDA287D26DE007A31D2 /* Resources */,
@@ -169,9 +429,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE48BDF6287D26DE007A31D2 /* Build configuration list for PBXNativeTarget "Thaigi-HVUITests" */;
 			buildPhases = (
+				7A3BC88DB1C2B25AEBF28A46 /* [CP] Check Pods Manifest.lock */,
 				CE48BDE2287D26DE007A31D2 /* Sources */,
 				CE48BDE3287D26DE007A31D2 /* Frameworks */,
 				CE48BDE4287D26DE007A31D2 /* Resources */,
+				CBCC40CCE395CE9845CE16B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +475,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				vi,
+				th,
 			);
 			mainGroup = CE48BDBD287D26DD007A31D2;
 			productRefGroup = CE48BDC7287D26DD007A31D2 /* Products */;
@@ -231,9 +496,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE48BFDE287D4776007A31D2 /* InputTextTCell.xib in Resources */,
+				CE48BFE0287D4776007A31D2 /* InputTextView.xib in Resources */,
 				CE48BDD6287D26DE007A31D2 /* LaunchScreen.storyboard in Resources */,
+				CE48BFE2287D4776007A31D2 /* InputTextCCell.xib in Resources */,
+				CE48BFBA287D45D0007A31D2 /* Localizable.strings in Resources */,
 				CE48BDD3287D26DE007A31D2 /* Assets.xcassets in Resources */,
 				CE48BDD1287D26DD007A31D2 /* Main.storyboard in Resources */,
+				CE48BFBB287D45D0007A31D2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +523,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19189FA6BF393BF9E01D277B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3BC88DB1C2B25AEBF28A46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thaigi-HV-Thaigi-HVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BFF35CE500080F5959D8C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thaigi-HV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA5AFBE3417FF9EF9A44364E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thaigi-HVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCC40CCE395CE9845CE16B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE48BDC2287D26DD007A31D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE48BE2B287D28BC007A31D2 /* ResultExtension.swift in Sources */,
+				CE48BFC5287D4642007A31D2 /* DefaultCellViewModel.swift in Sources */,
+				CE48BE38287D28BC007A31D2 /* DateExtension.swift in Sources */,
+				CE48BE1B287D28BC007A31D2 /* OptionalExtension.swift in Sources */,
+				CE48BE2C287D28BC007A31D2 /* UIViewExtension.swift in Sources */,
+				CE48BE1C287D28BC007A31D2 /* NSLayoutConstraintExtension.swift in Sources */,
+				CE48BE26287D28BC007A31D2 /* CellIdentifier.swift in Sources */,
+				CE48BFC4287D4642007A31D2 /* InputTextViewCellViewModel.swift in Sources */,
+				CE48BE30287D28BC007A31D2 /* BoolExtension.swift in Sources */,
+				CE48BDFA287D28A0007A31D2 /* Arguments.swift in Sources */,
+				CE48BE27287D28BC007A31D2 /* UIViewControllerExtension.swift in Sources */,
+				CE48BE31287D28BC007A31D2 /* FloatingExtension.swift in Sources */,
+				CE48BFB9287D45D0007A31D2 /* Strings.swift in Sources */,
 				CE48BDCE287D26DD007A31D2 /* ViewController.swift in Sources */,
+				CE48BFC9287D46C7007A31D2 /* ViewControllerable.swift in Sources */,
+				CE48BE37287D28BC007A31D2 /* UserDefaultsExtension.swift in Sources */,
 				CE48BDCA287D26DD007A31D2 /* AppDelegate.swift in Sources */,
+				CE48BE32287D28BC007A31D2 /* JSONCoderExtension.swift in Sources */,
+				CE48BE33287D28BC007A31D2 /* StringExtension.swift in Sources */,
+				CE48BFDD287D4776007A31D2 /* InputTextCCell.swift in Sources */,
+				CE48BE2E287D28BC007A31D2 /* ButtonExtension.swift in Sources */,
+				CE48BE20287D28BC007A31D2 /* CollectionExtension.swift in Sources */,
+				CE48BE36287D28BC007A31D2 /* UIImageExtension.swift in Sources */,
+				CE48BE22287D28BC007A31D2 /* NotificationExtension.swift in Sources */,
+				CE48BFC7287D46AA007A31D2 /* ViewModelable.swift in Sources */,
+				CE48BFD5287D4708007A31D2 /* ShareJSONResponse.swift in Sources */,
+				CE48BFDF287D4776007A31D2 /* InputTextView.swift in Sources */,
+				CE48BE1F287D28BC007A31D2 /* UIImageViewExtension.swift in Sources */,
+				CE48BE1E287D28BC007A31D2 /* UIImageView+GIF.swift in Sources */,
+				CE48BE28287D28BC007A31D2 /* BundleExtension.swift in Sources */,
+				CE48BE24287D28BC007A31D2 /* UITextFieldExtension.swift in Sources */,
+				CE48BFBC287D45D0007A31D2 /* LanguageManager.swift in Sources */,
+				CE48BFCD287D46D8007A31D2 /* PageViewModelable.swift in Sources */,
+				CE48BFCC287D46D8007A31D2 /* HorizontalCellable.swift in Sources */,
+				CE48BE23287D28BC007A31D2 /* CGRect+StringFont.swift in Sources */,
+				CE48BE2D287D28BC007A31D2 /* URLExtension.swift in Sources */,
+				CE48BE21287D28BC007A31D2 /* UIColorExtension.swift in Sources */,
+				CE48BE25287D28BC007A31D2 /* UIApplicationExtension.swift in Sources */,
+				CE48BE35287D28BC007A31D2 /* ErrorExtension.swift in Sources */,
+				CE48BE1D287D28BC007A31D2 /* AnimationExtension.swift in Sources */,
+				CE48BFE1287D4776007A31D2 /* InputTextTCell.swift in Sources */,
+				CE48BE2F287D28BC007A31D2 /* NSAttritubedStringExtension.swift in Sources */,
+				CE48BE29287D28BC007A31D2 /* MoyaProviderExtension.swift in Sources */,
+				CE48BE34287D28BC007A31D2 /* DictionaryExtension.swift in Sources */,
 				CE48BDCC287D26DD007A31D2 /* SceneDelegate.swift in Sources */,
+				CE48BE39287D28BC007A31D2 /* UITableViewExptension.swift in Sources */,
+				CE48BE2A287D28BC007A31D2 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +728,28 @@
 				CE48BDD5287D26DE007A31D2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE48BFAE287D45D0007A31D2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE48BFAF287D45D0007A31D2 /* zh-Hans */,
+				CE48BFB2287D45D0007A31D2 /* en */,
+				CE48BFB5287D45D0007A31D2 /* vi */,
+				CE48BFB7287D45D0007A31D2 /* th */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CE48BFB0287D45D0007A31D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE48BFB1287D45D0007A31D2 /* zh-Hans */,
+				CE48BFB3287D45D0007A31D2 /* en */,
+				CE48BFB6287D45D0007A31D2 /* vi */,
+				CE48BFB8287D45D0007A31D2 /* th */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,6 +873,7 @@
 		};
 		CE48BDF1287D26DE007A31D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBBE352ABFBA5F12464364E /* Pods-Thaigi-HV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,8 +884,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,12 +897,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CE48BDF2287D26DE007A31D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,8 +914,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,12 +927,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CE48BDF4287D26DE007A31D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6474B17DD6869F6A5A3F7FDE /* Pods-Thaigi-HVTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +953,7 @@
 		};
 		CE48BDF5287D26DE007A31D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51612306F60E9569EF0B7EE1 /* Pods-Thaigi-HVTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +973,7 @@
 		};
 		CE48BDF7287D26DE007A31D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +991,7 @@
 		};
 		CE48BDF8287D26DE007A31D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D7B6F7E052ECB64EE8DFFFC /* Pods-Thaigi-HV-Thaigi-HVUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  imf88
+
+  Created by 家碩 張 on 2021/6/30.
+  Copyright © 2021 Goldenf. All rights reserved.
+*/
+
+NSFaceIDUsageDescription = "เปิดการเข้าสู่ระบบด่วนไบโอเมตริกซ์?";

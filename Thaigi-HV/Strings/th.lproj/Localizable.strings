@@ -1,0 +1,498 @@
+/* 
+  Localizable.strings
+  imf88
+
+  Created by Johnny on 2021/4/28.
+  Copyright © 2021 Goldenf. All rights reserved.
+*/
+//! Auth
+"auth_placeholer_account" = "กรุณากรอกบัญชีของคุณ";
+"auth_placeholer_password1" = "กรุณาใส่รหัสผ่านของคุณ";
+"auth_placeholer_password2" = "กรุณายืนยันรหัสผ่านของคุณ";
+"auth_placeholer_recommend" = "กรุณากรอกรหัสอ้างอิง";
+"auth_placeholer_verify" = "โปรดป้อนรหัสยืนยันของคุณ";
+
+"auth_warning_account" = "ป้อนอักขระที่เป็นตัวอักษรและตัวเลขผสมกัน 5-16 ตัวโดยไม่มีตัวอักษรพิมพ์ใหญ่และอักขระพิเศษ";
+"auth_warning_password" = "รหัสผ่านต้องมีอักขระอย่างน้อย 6 ตัว";
+"auth_warning_passwordConfirm" = "โปรดป้อนรหัสผ่านที่สอดคล้องกัน";
+"auth_warning_verify" = "รหัสยืนยันไม่ถูกต้อง";
+
+"auth_FailureReason" = "รหัสผ่านบัญชีไม่ถูกต้อง, โปรดป้อนอีกครั้ง";
+
+"auth_button_forgetPassword" = "ลืมรหัสผ่าน";
+"auth_button_noAccountlabel" = "ไม่มีบัญชี";
+"auth_button_hadAccountLabel" = "คุณมีบัญชีอยู่แล้วหรือไม่?";
+"auth_button_toRegister" = "ลงชื่อ";
+"auth_button_login" = "เข้าสู่ระบบ";
+"auth_button_biometricLogin" = "การใช้ไบโอเมตริก";
+"auth_button_register" = "ลงทะเบียน";
+"auth_button_goMainBeforeLogin" = "เยี่ยมชมก่อน";
+"auth_button_above18" = "ฉันอายุ 18 ปีและยอมรับข้อกำหนดและเงื่อนไขของ ";
+"auth_button_regulation" = "";
+"auth_button_rememberPassword" = "จำบัญชีและรหัสผ่านของคุณ";
+
+"auth_register_registerSuccess" = "注册成功";
+"auth_register_verifySupport" = "ป้อนหมายเลขบน CAPTCHA หากไม่สามารถระบุตัวตนได้โปรดรีเฟรช CAPTCHA ของคุณ";
+
+"auth_regulation_title" = "ข้อกำหนดและเงื่อนไข";
+"auth_regulation_p1" = "คุณต้องยอมรับว่าคุณเป็น 18 ปีหรืออายุมากกว่าและที่คุณได้อ่านเข้าใจและตกลงกับข้อกำหนดและเงื่อนไขทั้งหมดก่อนที่คุณสามารถลงทะเบียนสำหรับบัญชีเกม เมื่อคุณค้นพบทุกคนที่มีอายุต่ำกว่า 18 ใช้เว็บไซต์นี้อยู่ภายใต้ บริษัท ทันทีจะตรึงชนะบัญชีและยกเลิกกองทุนในหน่วยความจำ";
+"auth_regulation_p2" = "ด้วยการตรวจสอบรายชื่อ [ฉันอายุ 18 ปีและยอมรับและยอมรับในบริการและข้อกำหนดและนโยบายความเป็นส่วนตัว] ในขณะที่คุณลงทะเบียนผู้ใช้ได้อนุญาตให้ บริษัท ของเราส่งอีเมลใด ๆ ไปยังกล่องจดหมายของคุณ ในขณะเดียวกันคุณได้อ่านทำความเข้าใจและยอมรับอย่างเต็มที่แล้ว หากผู้ใช้ไม่เห็นด้วยกับข้อบังคับใด ๆ โปรดหยุดใช้บริการทันทีและยกเลิกการลงทะเบียนบัญชี";
+"auth_regulation_p3" = "ในขณะที่เล่นเกมหรือเดิมพันบนแพลตฟอร์มนี้ถือว่าคุณได้ยอมรับและตกลงข้อกำหนดและกฎการบริการทั้งหมดที่ยุติธรรมและการจัดสรรความเสี่ยงผลประโยชน์มีความสมเหตุสมผลทั้งหมด นอกจากนี้ บริษัท ขอสงวนสิทธิ์ในการตรวจสอบบัญชีใด ๆ อย่างสม่ำเสมอ เราขอสงวนสิทธิ์ที่จะหยุดชั่วคราวหรือ จำกัด การบัญชีจนกว่าการตรวจทานเสร็จสมบูรณ์";
+
+"auth_bio_enableText" = "เปิดการเข้าสู่ระบบด่วนไบโอเมตริกซ์?";
+"auth_bio_h1" = "การใช้ไบโอเมตริกเพื่อยืนยันตัวตน";
+"auth_bio_h2" = "การใช้ไบโอเมตริกเพื่อยืนยันตัวตน";
+"auth_bio_manualLogin" = "กรุณาเข้าสู่ระบบด้วยบัญชีและรหัสผ่านของคุณ";
+
+"auth_forget_password_title" = "บริการลูกค้า - ลืมรหัสผ่าน";
+
+//! MemberCenter
+"memberCenter_label_center_wallet" = "กระเป๋าเงินหลัก";
+"memberCenter_label_my_avatar" = "อวตารของฉัน";
+"memberCenter_label_avatar_preview" = "ดูตัวอย่าง";
+"memberCenter_label_faq" = "ปัญหาทั่วไป";
+"memberCenter_label_help" = "ช่วยเหลือสำหรับมือใหม่";
+"memberCenter_label_business" = "กิจการขององค์กร";
+"memberCenter_label_contact" = "联系我们";
+"memberCenter_label_currentVipLevel" = "ระดับ VIP：";
+"memberCenter_label_nextVipLevel" = "คุณจำเป็นต้องฝากเงินและการอัพเกรดไปที่：";
+
+"memberCenter_button_login_first" = "เข้าสู่ระบบ";
+"memberCenter_button_deposit" = "ฝากออม";
+"memberCenter_button_withdrawal" = "เบิกถอน";
+"memberCenter_button_transfer" = "โอน";
+"memberCenter_button_card" = "การ์ด";
+
+"memberCenter_menu_title_transation_record" = "บันทึกธุรกรรม";
+"memberCenter_menu_title_bet_record" = "บันทึกการเดิมพัน";
+"memberCenter_menu_title_vip_only" = "VIP";
+"memberCenter_menu_title_profile" = "ส่วนตัว ข้อมูล";
+"memberCenter_menu_title_redeem" = "บันทึก การแลกโบนัส";
+"memberCenter_menu_title_news" = "ศูนย์ข้อมูลข่าว";
+"memberCenter_menu_title_help" = "ช่วยเหลือสำหรับมือใหม่";
+"memberCenter_menu_title_qa" = "ปัญหาทั่วไป";
+"memberCenter_menu_title_bonus" = "การอ้างอิงโบนัส";
+"memberCenter_menu_title_stuff" = "กิจการขององค์กร";
+"memberCenter_menu_title_joinUs" = "เข้าร่วมกับเรา";
+"memberCenter_menu_title_deviceSetting" = "การตั้งค่าอุปกรณ์";
+"memberCenter_menu_title_logout" = "ออกจากระบบ";
+
+"memberCenter_setting_hint_bio_disable_in_device" = "ไม่มีการลงทะเบียนลายนิ้วมือ / ใบหน้าในอุปกรณ์นี้, โปรดเพิ่มลายนิ้วมือ / ใบหน้าในการตั้งค่าระบบ";
+
+"memberCenter_logout_hint" = "คุณแน่ใจว่าคุณต้องการที่จะออกจากระบบ?";
+
+//! MemberProfile
+"memberProfile_label_name" = "ชื่อบัญชีเงินฝากธนาคาร";
+"memberProfile_label_gender" = "เพศ";
+"memberProfile_label_birthday" = "วัน เดือน ปี เกิด";
+"memberProfile_label_phoneNumber" = "หมายเลขโทรศัพท์";
+"memberProfile_label_verifyCode" = "รหัสยืนยัน";
+"memberProfile_label_mail" = "อีเมล์";
+"memberProfile_label_withdrawalPasswordTitle" = "กรุณากรอกรหัสผ่านการถอนของคุณ";
+"memberProfile_label_withdrawalPassword" = "รหัสผ่านเพื่อเบิกถอน";
+"memberProfile_label_totalDeposit" = "ผลรวมการฝากเงิน";
+"memberProfile_label_totalWithdrawal" = "ผลรวมการเบิกถอน";
+"memberProfile_label_totalBet" = "ผลรวมการวางพนัน";
+"memberProfile_label_totalEarn" = "ผลรวม แพ้ ชนะ";
+"memberProfile_label_chooseGender" = "เลือกเพศของคุณ";
+"memberProfile_label_confirmWithdrawalPassword" = "ยืนยันรหัสผ่านของคุณ.";
+"memberProfile_label_withdrawalPasswordSetting" = "กรุณาตั้งรหัสผ่านการถอน";
+"memberProfile_label_getSMSCodeSuccess" = "ประสบความสำเร็จ";
+"memberProfile_label_updateProfileSuccess" = "ประสบความสำเร็จ";
+"memberProfile_label_getSMSCodeFail" = "ส่งไม่สำเร็จ";
+"memberProfile_label_updateProfileFail" = "บันทึกล้มเหลว";
+
+"memberProfile_button_verifyCode" = "ส่งรหัสยืนยัน";
+"memberProfile_button_withdrawalPassword" = "尚未设置";
+"memberProfile_button_withdrawalPasswordSet" = "・・・・・・";
+"memberProfile_button_save" = "บันทึก";
+"memberProfile_button_profile" = "ข้อมูล";
+"memberProfile_button_funds" = "รายละเอียดการระดมทุน";
+
+"memberProfile_hint_name" = "ชื่อนามสกุลต้องมีอักขระอย่างน้อย 2 ตัว";
+"memberProfile_hint_gender" = "โปรดเลือกเพศของคุณ";
+"memberProfile_hint_birthday" = "ต้องมีอายุครบ 18 ปีขึ้นบริบูรณ์";
+"memberProfile_hint_phoneNumber" = "ตารางโทรศัพท์มือถือไม่ถูกต้อง, กรุณากรอกใหม่";
+"memberProfile_hint_verifyCode" = "รหัสยืนยันไม่ถูกต้อง,กรุณาป้อนใหม่";
+"memberProfile_hint_mail" = "รูปแบบอีเมลไม่ถูกต้อง,กรุณาป้อนใหม่";
+"memberProfile_hint_withdrawalPassword" = "รหัสผ่านต้องมีอักขระอย่างน้อย 6 ตัว";
+"memberProfile_hint_profileComplete" =  " หากคุณต้องการ modificate มันโปรดติดต่อบริการลูกค้า";
+"memberProfile_hint_countDown_first" = "ลองอีกครั้งหลังจาก ";
+"memberProfile_hint_countDown_second" = " วินาที";
+"memberProfile_hint_profileChange" = "เมื่อคุณบันทึกข้อมูลพื้นฐานแล้วคุณจะไม่สามารถแก้ไขใด ๆ ได้
+หากคุณต้องการ modificate มันโปรดติดต่อบริการลูกค้า";
+
+"memberProfile_placeHolder_name" = "กรุณากรอกชื่อและนามสกุลของคุณ";
+"memberProfile_placeHolder_gender" = "โปรดเลือกเพศของคุณ";
+"memberProfile_placeHolder_birthday" = "โปรดเลือกวันที่เกิดของคุณ";
+"memberProfile_placeHolder_phoneNumber" = "กรุณากรอกหมายเลขโทรศัพท์ของคุณ";
+"memberProfile_placeHolder_verifyCode" = "โปรดป้อนรหัสยืนยันของคุณ";
+"memberProfile_placeHolder_mail" = "กรุณากรอกอีเมลของคุณ";
+"memberProfile_placeHolder_withdrawalPassword" = "กรุณาใส่รหัสผ่านของคุณ";
+"memberProfile_placeHolder_confirmWithdrawalPassword" = "请再次输入密码";
+
+"memberProfile_gender_male" = "ชาย";
+"memberProfile_gender_female" = "หญิง";
+
+//! TabBar
+"tabbar_bonus" = "优惠";
+"tabbar_service" = "客服";
+"tabbar_recode" = "บันทึก";
+"tabbar_memberCenter" = "ของฉัน";
+
+//! BetHistory
+"bet_history_title" = "บันทึกการเดิมพัน";
+"bet_history_placeholder" = "จะมีการหน่วงเวลาสำหรับข้อมูลการเดิมพันแต่ละครั้งใช้สำหรับการอ้างอิงเท่านั้น.";
+"bet_history_noBetInBetHistory" = "ไม่มีบันทึก";
+
+"bet_history_filter_title" = "เลือกแพลตฟอร์ม";
+"bet_history_filter_all" = "ทั้งหมด";
+"bet_history_filter_cq9" = "CQ9电子";
+"bet_history_filter_gioco" = "揪客嘉电子";
+"bet_history_filter_MG" = "MG+ 电子";
+"bet_history_filter_PG" = "PG电子";
+"bet_history_filter_CQ" = "CQ9捕鱼";
+
+"bet_history_bet_hint_number" = "ตัวเลข";
+"bet_history_bet_hint_amount" = "พนัน";
+"bet_history_bet_hint_give" = "ผลตอบแทน";
+"bet_history_bet_hint_amount_" = "การเดิมพันที่ถูกต้อง";
+"bet_history_bet_hint_toBet" = "พนัน";
+"bet_history_bet_hint_betSettled" = "结算";
+"bet_history_bet_hint_betUnsettled" =  "未结算";
+"bet_history_bet_hint_betCancel" = "ยกเลิกการเดิมพัน";
+"bet_history_bet_hint_copy" = "คัดลอกสำเร็จ";
+
+//! NormalizedText
+"normalized_text_confirm" = "ฝากออม";
+"normalized_text_cancel" = "ยกเลิก";
+"normalized_text_all" = "ทั้งหมด";
+"normalized_text_tryAgain" = "ลองอีกครั้ง";
+"normalized_text_activate" = "เปิด";
+"normalized_text_copid" = "คัดลอกเรียบร้อยแล้ว";
+"normalized_text_sucess" = "ประสบความสำเร็จ";
+"normalized_text_copy" = "สำเนา";
+
+//! APIDefaultErrorMessage
+"APIDefaultErrorMessage_unknownError" = "未知的错误";
+
+//! DatePickerTitle
+"date_picker_title_dateQuickOptionText_Today" = "วันนี้";
+"date_picker_title_dateQuickOptionText_Yesterday" = "เมื่อวานนี้";
+"date_picker_title_dateQuickOptionText_last7Days" = "ใน 7 วัน";
+"date_picker_title_dateQuickOptionText_last30Days" = "ใน 30 วัน";
+"date_picker_title_dateQuickOptionText_Custom" = "ค่าเริ่มต้น";
+"date_picker_title_jan" = "January";
+"date_picker_title_feb" = "February";
+"date_picker_title_mar" = "March";
+"date_picker_title_apr" = "April";
+"date_picker_title_may" = "May";
+"date_picker_title_jun" = "June";
+"date_picker_title_jul" = "July";
+"date_picker_title_aug" = "August";
+"date_picker_title_sep" = "Septemper";
+"date_picker_title_oct" = "October";
+"date_picker_title_nov" = "November";
+"date_picker_title_dec" = "December";
+"date_picker_title_sunday" = "S";
+"date_picker_title_monday" = "M";
+"date_picker_title_tuesday" = "T";
+"date_picker_title_wednesday" = "W";
+"date_picker_title_thursday" = "T";
+"date_picker_title_friday" = "F";
+"date_picker_title_saturday" = "S";
+
+//! GameTabBar
+"game_tab_bar_favorites" = "ของโปรด";
+"game_tab_bar_hot" = "เป็นที่นิยม";
+"game_tab_bar_new" = "ใหม่";
+"game_tab_bar_allGame" = "ทั้งหมด";
+
+//! TransationHistory
+"transation_history_pageTypeButton_deposit" = "ฝากออม";
+"transation_history_pageTypeButton_withdrawal" = "เบิกถอน";
+"transation_history_pageTypeButton_quotaTransform" = "โอน";
+"transation_history_pageTypeButton_bonus" = "โบนัส";
+
+"transation_history_label_dateSelectionHint" = "แสดงเมื่อเดือนที่แล้ว, กรุณาติดต่อฝ่ายบริการลูกค้าสำหรับข้อมูลเพิ่มเติม";
+"transation_history_label_orderNumber" = "ตัวเลข";
+"transation_history_label_amount" = "จำนวนเงิน";
+"transation_history_label_transationType" = "ประเ ภทธุรกรรม";
+"transation_history_label_inviteFriend" = "เชิญเพื่อน ๆ";
+"transation_history_label_firstDeposit" = "สะสมเงินฝากครั้งแรกของคุณ";
+"transation_history_label_rebate" = "คืนรางวัลโบนัส";
+"transation_history_label_invitationGift" = "รางวัลคำเชิญ";
+"transation_history_label_account" = "บัญชี";
+
+"transation_history_status_fail" = "ล้มเหลว";
+"transation_history_status_complete" = "เสร็จสมบูรณ์";
+"transation_history_status_verifying" = "กำลังตรวจสอบ";
+"transation_history_status_unDefine" = "未定义";
+
+//! VipOnly
+"vip_only_pageTypeButton_myPrivilege" = "สิทธิพิเศษของฉัน";
+"vip_only_pageTypeButton_vipDetail" = "รายละเอียด VIP";
+
+"vip_only_label_totalDeposit" = "สะสมเงินฝาก";
+"vip_only_label_turnoverRequirement" = "ต้องวางเงินมัดจำ";
+"vip_only_label_keepLevelTurnoverRequirement" = "เพื่อการรักษาระดับชั้นต้องชาร์จต่ออีก 3 เดือน";
+"vip_only_label_withdrawalDailyCount" = "จำกัด เวลาในการถอน";
+"vip_only_label_withdrawalDailyAmount" = "ขีด จำกัด สำหรับการถอน";
+"vip_only_label_dailyWithdrawalCount" = "จำกัด การเบิกถอน รายวัน";
+"vip_only_label_dailyWithdrawalAmount" = "จำกัด โควต้าจำนวนเงินการเบิกถอน รายวัน";
+"vip_only_label_levelUpGift" = "โบนัสสำหรับการอัพเกรด";
+"vip_only_label_birthdayGift" = "ของขวัญวันเกิด";
+"vip_only_label_monthlyFreeGift" = "โบนัสรายเดือน";
+"vip_only_label_time" = " ครั้ง";
+"vip_only_label_dollar" = " บาท 泰銖";
+"vip_only_label_canReceive" = "รับทันที";
+"vip_only_label_autoHandOut" = "自动发放";
+"vip_only_label_monthlyGift" = "โบนัสรายเดือน";
+"vip_only_label_rebateMinTransfer" = "โอนขั้นต่ำ";
+"vip_only_label_rebateBonusPercent" = "อัตราโบนัส";
+"vip_only_label_rebateMax" = "โบนัสสูงสุด";
+"vip_only_label_rebateFrequency" = "จำกัด ครั้ง";
+"vip_only_label_rebateMultiple" = "เดิมพันหลายที่จำเป็นสำหรับการถอนตัว";
+"vip_only_label_receiveExtraBonusSuccess" = "申请成功";
+"vip_only_label_receiveExtraBonusFail" = "申请失败";
+"vip_only_label_receiveBonusSuccess" = "领取成功";
+"vip_only_label_receiveBonusFail" = "领取失败";
+"vip_only_label_monthly" = "monthly";
+"vip_only_label_weekly" = "weekly";
+"vip_only_label_currentDeposit" = "รวมยอดเงินฝากปัจจุบัน";
+"vip_only_label_currentTurnover" = "กระแสการหมุนเงินของปัจจุบัน";
+"vip_only_label_currency" = "บาท 泰銖";
+"vip_only_label_level" = "ระดับ";
+"vip_only_label_extraBonus" = "ของขวัญสุดหรู";
+"vip_only_label_apply" = "สมัคร";
+
+"vip_only_seciontTitle_discountInfo" = "Trình bày giảm giá vip";
+"vip_only_seciontTitle_vipRebetRate" = "อัตราการคืนเงิน VIP";
+"vip_only_seciontTitle_withdrawalLimit" = "ขีด จำกัด การถอน VIP";
+
+"vip_only_termsAndRule_upgradeStandard" = "มาตรฐานการอัพเกรด";
+"vip_only_termsAndRule_upgradeStandardContent" = "สมาชิกที่มีเงินฝากสะสมและเงินเดิมพันสะสมตรงตามข้อกำหนดของระดับที่เกี่ยวข้องสามารถเลื่อนระดับเป็นระดับวีไอพีที่เกี่ยวข้องก่อน 24 นาฬิกาของวันถัดไป";
+"vip_only_termsAndRule_upgradeOrder" = "อันดับการอัพเกรด";
+"vip_only_termsAndRule_upgradeOrderContent" = "ระดับ VIP สามารถเลื่อนขึ้นเป็นระดับถัดไปได้ทุกวันหากระดับ VIP ตรงตามข้อกำหนดที่เกี่ยวข้อง อย่างไรก็ตามไม่สามารถเลื่อนระดับ VIP เกินระดับได้";
+"vip_only_termsAndRule_keepLevelRequirement" = "การร้องขอสำหรับการเนรเทศ";
+"vip_only_termsAndRule_keepLevelRequirementContent" = "หลังจากไปถึงระดับ VIP แล้วสมาชิกจะต้องทำตามข้อกำหนดการตกชั้นสำหรับการเดิมพันภายใน 90 วัน หากการส่งเสริมการขายเสร็จสิ้นในช่วงเวลานี้ข้อกำหนดการเนรเทศจะได้รับการคำนวณใหม่ตามระดับปัจจุบัน";
+"vip_only_termsAndRule_loseLevelStandard" = "กำลังดาวน์เกรด";
+"vip_only_termsAndRule_loseLevelStandardContent" =  "หากสมาชิกไม่ทำตามข้อกำหนดการตกชั้นที่สอดคล้องกันภายในหนึ่งไตรมาส (การคำนวณ 90 วัน) ระบบจะปรับลดระดับโดยอัตโนมัติและส่วนลดที่เกี่ยวข้องและผลประโยชน์อื่น ๆ จะถูกปรับเป็นระดับที่ลดระดับตามนั้น";
+"vip_only_termsAndRule_specialDiscount" = "ข้อเสนอพิเศษ";
+"vip_only_termsAndRule_specialDiscountContent" = "สมาชิกวีไอพีที่เข้าถึงระดับที่เกี่ยวข้องสามารถติดต่อฝ่ายบริการลูกค้าออนไลน์เพื่อสมัคร ของขวัญไม่สามารถแลกเปลี่ยนเป็นเงินสดได้ สมาชิกแต่ละคนสามารถรับของขวัญของแต่ละระดับได้เพียงครั้งเดียว Yabo Entertainment ขอสงวนสิทธิ์ในการตีความของขวัญล้ำค่า (ของขวัญสำหรับสมาชิก VIP6 / VIP7 / VIP8 / VIP9 / VIP10 เท่านั้น)";
+"vip_only_termsAndRule_levelUpGift" = "โบนัสสำหรับการอัพเกรด";
+"vip_only_termsAndRule_levelUpGiftContent" = "โบนัสการอัพเกรดจะถูกแจกจ่ายโดยอัตโนมัติหลังจากที่สมาชิกถึงระดับสมาชิกและสมาชิกแต่ละคนจะได้รับโบนัสการอัพเกรดเพียงครั้งเดียวสำหรับแต่ละระดับ (อัปเกรดเงินของขวัญ 1 เท่าของมูลค่าการซื้อขายเพื่อถอนเงิน)";
+"vip_only_termsAndRule_birthdayGift" = "ของขวัญวันเกิด";
+"vip_only_termsAndRule_birthdayGiftContent" = "สมาชิกที่มีวันเกิดภายในสามเดือนหลังจากลงทะเบียนจะไม่สามารถรับของขวัญวันเกิดในปีนี้ได้ นอกจากนี้สมาชิกที่ลงทะเบียนนานกว่าสามเดือนจำเป็นต้องรวบรวมด้วยตนเองในหน้าวีไอพีในวันเกิดของพวกเขาซึ่งสามารถรวบรวมได้ปีละครั้ง (แจ็คพอตวันเกิดสามารถถอนได้ 1 เท่าของเทิร์นโอเวอร์)";
+"vip_only_termsAndRule_monthlyGift" = "โบนัสรายเดือน";
+"vip_only_termsAndRule_monthlyGiftContent" = "สมาชิกที่ฝากเงินสำเร็จอย่างน้อยหนึ่งครั้งในเดือนที่แล้วจะได้รับโบนัสรายเดือนในระดับที่สอดคล้องกันของเดือนก่อนหน้าในวันที่ 1 ของแต่ละเดือน (โบนัสรายเดือนสามารถถอนได้ 1 เท่าของเทิร์นโอเวอร์)";
+"vip_only_termsAndRule_levelUpPromotion" = "รางวัลสำหรับการอัพเกรด";
+"vip_only_termsAndRule_levelUpPromotionContent" = "สามารถรับรางวัลสำหรับการอัพเกรดได้ที่หน้า VIP หลังจากได้รับกิจกรรมส่งเสริมการขายแล้วจะมีการคำนวณมูลค่าการซื้อขายที่มีประสิทธิผลของกิจกรรม โปรโมชั่นนี้ไม่ใช้ร่วมกับโปรโมชั่นอื่น ๆ บนแพลตฟอร์มโดยใช้ร่วมกับส่วนลดเงินคืนเท่านั้น ส่วนลดโปรโมชั่น VIP แต่ละระดับรองรับการใช้งานสำหรับสถานที่ที่กำหนดเท่านั้น (ใช้เฉพาะส่วนลดโปรโมชั่นที่ตรงตามระดับปัจจุบันเท่านั้น)";
+"vip_only_termsAndRule_footer" = "ขอสงวนสิทธิ์ในการแก้ไขของกิจกรรม, หยุด สิทธิในการตีความของเหตุการณ์สุดท้าย";
+"vip_only_termsAndRule_title" = "ข้อตกลง";
+
+//! Transation
+"transation_label_withdrawalToCard" = "ถอนเงินสดไปยังบัตรธนาคาร";
+"transation_label_withdrawalAmount" = "จำนวนเงินที่ถอน";
+"transation_label_selectBank" = "เลือกธนาคาร";
+"transation_label_selectLocation" = "เลือกเมืองจังหวัด";
+"transation_label_centerWallet" = "กระเป๋าเงินหลัก";
+"transation_label_lockedWallet" = "ปิดกั้นกระเป๋าเงิน";
+"transation_label_transfer" = "โอน";
+"transation_label_autoTransferMode" = "โหมดอัตโนมัติ";
+"transation_label_walletTransferHint" = "场馆钱包不可互转";
+"transation_label_gameWallet" = "กระเป๋าสตางค์";
+"transation_label_chooseGameWallet" = "เลือกกระเป๋าเงิน";
+"transation_label_transferSuccess" = "转换成功";
+"transation_label_transferFail" = "转换失败";
+"transation_label_retrieveSuccess" = "ประสบความสำเร็จ";
+"transation_label_retrieveFail" = "回收失败";
+"transation_label_lockedWalletMessage" = "ในขณะที่เงินในกระเป๋าสตางค์ล็อคที่มีการประมวลผล / การตรวจสอบกิจกรรมเช่นการพนันและการถ่ายโอนไม่สามารถใช้ได้ชั่วคราว เมื่อดำเนินการแล้วเงินที่ล็อคกระเป๋าสตางค์จะถูกแจกจ่ายไปยังกระเป๋าเงินที่เกี่ยวข้องเพื่อใช้ตามผลการประมวลผล";
+"transation_label_withdrawalSuccess" = "取款成功";
+"transation_label_withdrawalFail" = "取款失败";
+"transation_label_profileNotComplete" = "ในการเพิ่มบัตรธนาคารเป็นครั้งแรก, กรุณากรอกข้อมูลส่วนบุคคลขั้นพื้นฐานแรก";
+"transation_label_paymentMethod" = "วิธีการชำระเงิน";
+"transation_label_depositAmount" = "จำนวนเงินฝาก";
+"transation_label_depositSuccess" = "存款成功";
+"transation_label_depositFail" = "存款失败";
+"transation_label_currency" = "฿";
+"transation_label_withdrawalCountLimit" = "จำกัด เวลาในการถอนวันนี้:";
+"transation_label_withdrawalAmountLimit" = "ขีด จำกัด สำหรับการถอนในวันนี้:";
+"transation_label_withdrawalCountShort" = "ถอนได้ไม่เพียงพอในวันนี้\n";
+"transation_label_withdrawalAmountShort" = "จำนวนเงินไม่เพียงพอที่ถอนออกในวันนี้";
+"transation_label_depositResultMessage" = " ยอดโอนทั้งหมดเท่ากับยอดสั่งซื้อ ";
+"transation_label_retrieveAllMessage" = "รับยอดคงเหลือทั้งหมดกลับเข้าสู่กระเป๋าเงินหลัก";
+"transation_label_autoTransferMessage" = "มีความสมดุลในเกม, ไม่ว่าจะเปิดโหมดอัตโนมัติ";
+"transation_label_retrieveAllResultMessage" = "รีไซเคิลยอดคงเหลือที่เลือกไว้ในกระเป๋าเงินหลัก";
+"transation_label_bankCardLimit" = "มากถึงสามใบ";
+"transation_label_removeBankCard" = "ยืนยันเพื่อลบบัตรธนาคาร";
+"transation_label_errorBankCard" = "หมายเลขบัตรธนาคารไม่ถูกต้องโปรดป้อนข้อมูลอีกครั้ง";
+"transation_label_addBankCard" = "เพิ่มบัตรธนาคาร";
+"transation_label_singleDepositLimit" = "ขีด จำกัด การฝากเงินครั้งเดียว";
+"transation_label_singleWithdrawalLimit" = "จำกัด การถอนเพียงครั้งเดียว";
+
+"transation_button_confirmWithdrawal" = "เบิกถอน";
+"transation_button_confirmDeopsit" = "ฝากออม";
+"transation_button_save" = "บันทึก";
+"transation_button_showHand" = "ทั้งหมดใน";
+"transation_button_transfer" = "โอน";
+"transation_button_retrieveAll" = "รีไซเคิลทั้งหมด";
+"transation_button_cancelSelection" = "ยกเลิกการเลือก";
+"transation_button_retrieveBatch" = "การรีไซเคิลแบทช์";
+"transation_button_walletBalance" = "";
+"transation_button_addBankCard" = "เพิ่มบัตรธนาคาร";
+
+"transation_addBankCardSection_ownerName" = "ชื่อบัญชีเงินฝากธนาคาร";
+"transation_addBankCardSection_bank" = "ธนาคาร";
+"transation_addBankCardSection_bankAccountNumber" = "หมายเลขบัตรธนาคาร";
+"transation_addBankCardSection_location" = "จังหวัดเขตที่เปิดบัญชี";
+
+"transation_placeHolder_bank" = "โปรดเลือกธนาคาร";
+"transation_placeHolder_bankAccountNumber" = "กรุณากรอกหมายเลขบัตรธนาคาร";
+"transation_placeHolder_location" = "โปรดเลือกเมืองจังหวัด";
+"transation_placeHolder_inputAmount" = "กรุณากรอกจำนวนเงิน";
+"transation_placeHolder_otherAmount" = "อื่นๆ";
+
+"transation_title_depositInfo" = "ข้อมูลการฝาก";
+"transation_title_hint" = "提示";
+
+"transation_depositResultTitle_bank" = "ธนาคารสำหรับการถ่ายโอน";
+"transation_depositResultTitle_bankAccount" = "หมายเลขบัตรธนาคาร";
+"transation_depositResultTitle_name" = "ชื่อเต็มสำหรับการโอน";
+"transation_depositResultTitle_address" = "ที่อยู่เจ้าของผู้เปิดบัญชี";
+"transation_depositResultTitle_remarks" = "สังเกต";
+
+//! GameFavor
+"game_favor_favorites" = "收藏成功";
+"game_favor_cancelFavorites" = "取消收藏";
+"game_favor_noFavorites" = "暂无收藏的游戏";
+"game_favor_noHot" = "暂无热门游戏";
+"game_favor_noNew" = "暂无最新游戏";
+"game_favor_noGame" = "暂无游戏";
+
+//! GameSearch
+"game_search_placeholder" = "ป้อนคำหลัก";
+"game_search_searchsubtitle" = "โปรดป้อนคำที่ต้องการค้นหา";
+"game_search_total" = "ค้นหาโดยสมบูรณ์";
+"game_search_about" = "ผลลัพธ์เกี่ยวกับ \"";
+"game_search_result" = "\"";
+//! GameLaunch
+"game_launch_fullView" = "เต็มจอ";
+"game_launch_fullView_under_maintain" = "ในการบำรุงรักษา";
+//! Bonus
+"bonus_title" = "กิจกรรม";
+"bonus_catergory_1" = "体育优惠";
+"bonus_catergory_2" = "真人优惠";
+"bonus_catergory_3" = "彩票优惠";
+"bonus_catergory_4" = "彩票优惠";
+
+"bonus_promoButtonText_apply" = "参加";
+"bonus_promoButtonText_redeem" = "领取";
+"bonus_promoButtonText_applyAction" = "ฉันต้องการที่จะมีส่วนร่วม";
+"bonus_promoButtonText_redeemAction" = "我要领取";
+"bonus_promoButtonText_applySuccess" = "参加成功";
+"bonus_promoButtonText_redeemSuccess" = "领取成功";
+
+"bonus_getBonus" = "领取优惠";
+"bonus_label_more" = "มากขึ้น";
+//! Document
+"document_newbieHelp" = "ช่วยเหลือสำหรับมือใหม่";
+
+//! MessageCenter
+"message_center_messageList" = "ศูนย์ข้อมูลข่าว";
+
+//! RedeemHistory
+"redeem_history_PageTypeButton_deposit" = "รางวัล";
+"redeem_history_PageTypeButton_withdrawal" = "โบนัส";
+"redeem_history_PageTypeButton_quotaTransform" = "การอ้างอิงโบนัส";
+"redeem_history_button_add_bonus" = "เงินฝากโบนัส";
+"redeem_history_label_title" = "บันทึก การแลกโบนัส";
+"redeem_history_label_order" = "ตัวเลข";
+"redeem_history_label_money" = "จำนวน";
+"redeem_history_label_withdrawal_type" = "ประเภทโบนัส";
+"redeem_history_label_item" = "ชื่อผลิตภัณฑ์";
+"redeem_history_label_bonus_type" = "ประเภทรางวัล";
+
+//! CustomerService
+"customer_service_error" = "系统错误";
+"customer_service_user" = "สวัสดีผู้ใช้ที่รัก";
+"customer_service_welcom" = "ยินดีต้อนรับสู่ศูนย์บริการลูกค้า";
+"customer_service_add_hint" = "เพิ่มบริการลูกค้าเดสก์ท็อป เพลิดเพลินกับการให้คำปรึกษาออนไลน์แบบตัวต่อตัวได้ตลอดเวลา";
+"customer_service_add_button_title" = "เพิ่มเลย";
+"customer_service_title" = "บริการออนไลน์";
+"customer_service_center_title" = "บริการลูกค้า";
+"customer_service_full_time_hint" = "บริการเฉพาะสายตลอด 24 ชั่วโมง";
+
+//!DeviceSetting
+"device_setting_label_deviceSetting" = "การตั้งค่าอุปกรณ์";
+"device_setting_label_account" = "บัญชีสมาชิก";
+"device_setting_label_device" = "รุ่นโทรศัพท์";
+"device_setting_label_ipAddress" = "เข้าสู่ระบบ IP";
+"device_setting_label_carrier" = "ผู้ประกอบการโทรคมนาคม";
+"device_setting_label_osVersion" = "เวอร์ชันของระบบโทรศัพท์";
+"device_setting_label_appVersion" = "เวอร์ชันแอปพลิเคชัน";
+"device_setting_label_currentDate" = "เวลาปัจจุบัน";
+"device_setting_label_ram" = "หน่วยความจำ";
+"device_setting_label_cache" = "แคช";
+"device_setting_label_temp" = "อุณหภูมิในการทำงาน";
+"device_setting_label_deviceInfo" = "ข้อมูลอุปกรณ์";
+"device_setting_label_bioSettingTitle" = "การใช้ไบโอเมตริก";
+"device_setting_label_bioSettingHint" = "ใช้ใบหน้าหรือลายนิ้วมือของคุณในการตรวจสอบ";
+"device_setting_temp_nominal" = "ดี";
+"device_setting_temp_fair" = "ปกติ";
+"device_setting_temp_serious" = "ร้อน";
+"device_setting_temp_critical" = "ร้อนเกินไป";
+
+//LobbyAdvertising
+"advertising_showButton_today" = "วันนี้ไม่มีแสดงกราฟิก";
+"advertising_showButton_next" = "ถัดไป";
+"advertising_showButton_back" = "ก่อนหน้านี้";
+
+//LobbyAccountHeaderView
+"account_label_prompt" = "การฝากถอนโอน";
+"account_label_bonus" = "เช็คดูโปรโมชั่นพิเศษล่าสุด";
+"account_label_record" = "บันทึกการเดิมพัน";
+
+//JoinUs
+"joinus_label_title" = "เข้าร่วมกับเรา";
+"joinus_cooperatePlane" = "หน่วยงาน";
+"joinus_h1" = "ซูเปอร์เงื่อนไขค่าคอมมิชชั่นสูง\nรายการรายงานที่ถูกต้อง\nประสบการณ์ที่ราบรื่นและน่ารื่นรมย์";
+"joinus_h2" = "";
+"joinus_point1" = "ทีมงานหน่วยงานระดับมืออาชีพ";
+"joinus_point2" = "รูปแบบความร่วมมือที่มีค่าคอมมิชชั่นสูง";
+"joinus_point3" = "แพลตฟอร์มความบันเทิงชั้นนำของเอเชีย";
+"joinus_point4" = "ระบบที่น่าเชื่อถือที่สุด";
+"joinus_point5" = "ระบบวิเคราะห์ข้อมูลที่ทรงพลังที่สุด";
+"joinus_point6" = "ตัวเลือกเกมที่หลากหลาย";
+"joinus_skype" = "ร่วมงานกับเราและปรึกษาผ่าน Skype";
+"joinus_telegram" = "ฝ่ายพันธมิตรร่วมทุน Telegram";
+"joinus_joinUsButton" = "เข้าร่วมกับเรา";
+
+//GiftViewController
+"gigt_nav_label_title" = "การอ้างอิงโบนัส";
+"gift_label_bonus_title" = "การอ้างอิงโบนัส (฿)";
+"gift_label_bonus_back_title" = "ผลตอบแทนโบนัส (฿)";
+"gift_label_bonus_share_title" = "จำนวนเงินทั้งหมดที่ออก";
+"gift_label_bonus_shared_title" = "จำนวนเงินทั้งหมดที่จ่าย";
+"gift_label_bonus_noShare_title" = "จำนวนเงินทั้งหมดที่รอดำเนินการ";
+"gift_label_friend_title" = "เชิญเพื่อน ๆ";
+"gift_label_message_title" = "รวบรวมต่อสู้ไปด้วยกัน";
+"gift_label_message_sub_title" = "แชร์ลิงค์ส่วนลดของคุณกับเพื่อน ๆ และพวกเขาจะได้รับโบนัสผู้แนะนำหลังจากลงทะเบียนบัญชี";
+"gift_label_code_title" = "รหัสอ้างอิงพิเศษ";
+"gift_button_share" = "แชร์เลย";
+"gift_button_download" = "ดาวน์โหลด";
+"gift_button_copy" = "สำเนา";
+
+//紅利
+"bonus_type_title" = "กรุณาเลือกประเภทปันผลโบนัส";
+
+//版本資訊
+"new_version_message" = "พบเวอร์ชันใหม่ โปรดคลิกยืนยันเพื่ออัปเดต";
+"version_too_old_message" = "เวอร์ชันปัจจุบันของคุณเก่าเกินไป โปรดคลิกยืนยันเพื่ออัปเดต";
+
+//網路狀態
+"network_status_unavalible" = "การเชื่อมต่อเครือข่ายผิดปกติ โปรดยืนยันสถานะการเชื่อมต่อของคุณ";
+
+//Launch
+"launch_second" = "";
+"launch_skip" = "｜ข้าม";
