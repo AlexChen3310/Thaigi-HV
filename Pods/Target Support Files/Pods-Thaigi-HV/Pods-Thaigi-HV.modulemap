@@ -1,0 +1,6 @@
+framework module Pods_Thaigi_HV {
+  umbrella header "Pods-Thaigi-HV-umbrella.h"
+
+  export *
+  module * { export * }
+}

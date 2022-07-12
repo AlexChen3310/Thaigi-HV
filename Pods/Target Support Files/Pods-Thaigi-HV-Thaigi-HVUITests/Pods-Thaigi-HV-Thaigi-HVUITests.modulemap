@@ -1,0 +1,6 @@
+framework module Pods_Thaigi_HV_Thaigi_HVUITests {
+  umbrella header "Pods-Thaigi-HV-Thaigi-HVUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
