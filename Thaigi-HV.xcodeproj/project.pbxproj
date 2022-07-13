@@ -67,6 +67,16 @@
 		CE48BFE0287D4776007A31D2 /* InputTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFDA287D4775007A31D2 /* InputTextView.xib */; };
 		CE48BFE1287D4776007A31D2 /* InputTextTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFDB287D4776007A31D2 /* InputTextTCell.swift */; };
 		CE48BFE2287D4776007A31D2 /* InputTextCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFDC287D4776007A31D2 /* InputTextCCell.xib */; };
+		CE48BFEB287D64FB007A31D2 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFE9287D64FB007A31D2 /* LobbyViewController.swift */; };
+		CE48BFEC287D64FB007A31D2 /* LobbyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFEA287D64FB007A31D2 /* LobbyViewController.xib */; };
+		CE48BFEE287D69BC007A31D2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFED287D69BC007A31D2 /* BaseViewController.swift */; };
+		CE48BFF0287D69F5007A31D2 /* ViewControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFEF287D69F5007A31D2 /* ViewControllerManager.swift */; };
+		CE48BFF3287D6A47007A31D2 /* HUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF1287D6A47007A31D2 /* HUDViewController.swift */; };
+		CE48BFF4287D6A47007A31D2 /* HUDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFF2287D6A47007A31D2 /* HUDViewController.xib */; };
+		CE48BFFA287D6B83007A31D2 /* BasePlainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFF5287D6B83007A31D2 /* BasePlainTableViewController.xib */; };
+		CE48BFFC287D6B83007A31D2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */; };
+		CE48BFFD287D6B83007A31D2 /* BaseGroupTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */; };
+		CE48BFFE287D6B83007A31D2 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */; };
 		CF5B10DA12A85D183C3B46C6 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +173,16 @@
 		CE48BFDA287D4775007A31D2 /* InputTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputTextView.xib; sourceTree = "<group>"; };
 		CE48BFDB287D4776007A31D2 /* InputTextTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextTCell.swift; sourceTree = "<group>"; };
 		CE48BFDC287D4776007A31D2 /* InputTextCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputTextCCell.xib; sourceTree = "<group>"; };
+		CE48BFE9287D64FB007A31D2 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		CE48BFEA287D64FB007A31D2 /* LobbyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyViewController.xib; sourceTree = "<group>"; };
+		CE48BFED287D69BC007A31D2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CE48BFEF287D69F5007A31D2 /* ViewControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerManager.swift; sourceTree = "<group>"; };
+		CE48BFF1287D6A47007A31D2 /* HUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDViewController.swift; sourceTree = "<group>"; };
+		CE48BFF2287D6A47007A31D2 /* HUDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HUDViewController.xib; sourceTree = "<group>"; };
+		CE48BFF5287D6B83007A31D2 /* BasePlainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasePlainTableViewController.xib; sourceTree = "<group>"; };
+		CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseGroupTableViewController.xib; sourceTree = "<group>"; };
+		CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV.release.xcconfig"; sourceTree = "<group>"; };
 		E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -247,6 +267,7 @@
 				CE48BFAC287D45D0007A31D2 /* Strings */,
 				CE48BFBD287D4626007A31D2 /* Shared */,
 				CE48BDFB287D28BC007A31D2 /* Extension */,
+				CE48BFE3287D64ED007A31D2 /* Lobby */,
 				CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */,
 				CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */,
 				CE48BDCD287D26DD007A31D2 /* ViewController.swift */,
@@ -367,6 +388,14 @@
 		CE48BFC1287D4626007A31D2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CE48BFED287D69BC007A31D2 /* BaseViewController.swift */,
+				CE48BFEF287D69F5007A31D2 /* ViewControllerManager.swift */,
+				CE48BFF1287D6A47007A31D2 /* HUDViewController.swift */,
+				CE48BFF2287D6A47007A31D2 /* HUDViewController.xib */,
+				CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */,
+				CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */,
+				CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */,
+				CE48BFF5287D6B83007A31D2 /* BasePlainTableViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -382,6 +411,55 @@
 				CE48BFDA287D4775007A31D2 /* InputTextView.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CE48BFE3287D64ED007A31D2 /* Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BFE4287D64ED007A31D2 /* ViewModel */,
+				CE48BFE5287D64ED007A31D2 /* View */,
+				CE48BFE6287D64ED007A31D2 /* Service */,
+				CE48BFE7287D64ED007A31D2 /* DataModel */,
+				CE48BFE8287D64ED007A31D2 /* ViewController */,
+			);
+			path = Lobby;
+			sourceTree = "<group>";
+		};
+		CE48BFE4287D64ED007A31D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE48BFE5287D64ED007A31D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE48BFE6287D64ED007A31D2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CE48BFE7287D64ED007A31D2 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CE48BFE8287D64ED007A31D2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE48BFE9287D64FB007A31D2 /* LobbyViewController.swift */,
+				CE48BFEA287D64FB007A31D2 /* LobbyViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,13 +574,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE48BFFD287D6B83007A31D2 /* BaseGroupTableViewController.xib in Resources */,
 				CE48BFDE287D4776007A31D2 /* InputTextTCell.xib in Resources */,
 				CE48BFE0287D4776007A31D2 /* InputTextView.xib in Resources */,
+				CE48BFFA287D6B83007A31D2 /* BasePlainTableViewController.xib in Resources */,
 				CE48BDD6287D26DE007A31D2 /* LaunchScreen.storyboard in Resources */,
 				CE48BFE2287D4776007A31D2 /* InputTextCCell.xib in Resources */,
+				CE48BFF4287D6A47007A31D2 /* HUDViewController.xib in Resources */,
 				CE48BFBA287D45D0007A31D2 /* Localizable.strings in Resources */,
 				CE48BDD3287D26DE007A31D2 /* Assets.xcassets in Resources */,
 				CE48BDD1287D26DD007A31D2 /* Main.storyboard in Resources */,
+				CE48BFEC287D64FB007A31D2 /* LobbyViewController.xib in Resources */,
 				CE48BFBB287D45D0007A31D2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,7 +731,9 @@
 				CE48BE37287D28BC007A31D2 /* UserDefaultsExtension.swift in Sources */,
 				CE48BDCA287D26DD007A31D2 /* AppDelegate.swift in Sources */,
 				CE48BE32287D28BC007A31D2 /* JSONCoderExtension.swift in Sources */,
+				CE48BFFE287D6B83007A31D2 /* BaseTableViewController.swift in Sources */,
 				CE48BE33287D28BC007A31D2 /* StringExtension.swift in Sources */,
+				CE48BFEE287D69BC007A31D2 /* BaseViewController.swift in Sources */,
 				CE48BFDD287D4776007A31D2 /* InputTextCCell.swift in Sources */,
 				CE48BE2E287D28BC007A31D2 /* ButtonExtension.swift in Sources */,
 				CE48BE20287D28BC007A31D2 /* CollectionExtension.swift in Sources */,
@@ -658,7 +742,10 @@
 				CE48BFC7287D46AA007A31D2 /* ViewModelable.swift in Sources */,
 				CE48BFD5287D4708007A31D2 /* ShareJSONResponse.swift in Sources */,
 				CE48BFDF287D4776007A31D2 /* InputTextView.swift in Sources */,
+				CE48BFFC287D6B83007A31D2 /* BaseNavigationController.swift in Sources */,
+				CE48BFEB287D64FB007A31D2 /* LobbyViewController.swift in Sources */,
 				CE48BE1F287D28BC007A31D2 /* UIImageViewExtension.swift in Sources */,
+				CE48BFF0287D69F5007A31D2 /* ViewControllerManager.swift in Sources */,
 				CE48BE1E287D28BC007A31D2 /* UIImageView+GIF.swift in Sources */,
 				CE48BE28287D28BC007A31D2 /* BundleExtension.swift in Sources */,
 				CE48BE24287D28BC007A31D2 /* UITextFieldExtension.swift in Sources */,
@@ -673,6 +760,7 @@
 				CE48BE1D287D28BC007A31D2 /* AnimationExtension.swift in Sources */,
 				CE48BFE1287D4776007A31D2 /* InputTextTCell.swift in Sources */,
 				CE48BE2F287D28BC007A31D2 /* NSAttritubedStringExtension.swift in Sources */,
+				CE48BFF3287D6A47007A31D2 /* HUDViewController.swift in Sources */,
 				CE48BE29287D28BC007A31D2 /* MoyaProviderExtension.swift in Sources */,
 				CE48BE34287D28BC007A31D2 /* DictionaryExtension.swift in Sources */,
 				CE48BDCC287D26DD007A31D2 /* SceneDelegate.swift in Sources */,
