@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		00DA1147B4E899366D224202 /* Pods_Thaigi_HVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D782E70E6A8AEF97B77488D /* Pods_Thaigi_HVTests.framework */; };
 		B07845A199DC50B6F8CA502D /* Pods_Thaigi_HV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C4E737D137D2B5B807F093 /* Pods_Thaigi_HV.framework */; };
+		CE125D752885538700740294 /* LobbyMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125D732885538700740294 /* LobbyMainCell.swift */; };
+		CE125D762885538700740294 /* LobbyMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE125D742885538700740294 /* LobbyMainCell.xib */; };
 		CE48BDCA287D26DD007A31D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */; };
 		CE48BDCC287D26DD007A31D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */; };
 		CE48BDCE287D26DD007A31D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDCD287D26DD007A31D2 /* ViewController.swift */; };
@@ -77,6 +79,10 @@
 		CE48BFFC287D6B83007A31D2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */; };
 		CE48BFFD287D6B83007A31D2 /* BaseGroupTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */; };
 		CE48BFFE287D6B83007A31D2 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */; };
+		CE8B86D32881154200BF516D /* LobbyVenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B86D12881154200BF516D /* LobbyVenderCell.swift */; };
+		CE8B86D42881154200BF516D /* LobbyVenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8B86D22881154200BF516D /* LobbyVenderCell.xib */; };
+		CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */; };
+		CE8B86D828814CFF00BF516D /* LobbyNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8B86D628814CFF00BF516D /* LobbyNoticeCell.xib */; };
 		CF5B10DA12A85D183C3B46C6 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +111,8 @@
 		6474B17DD6869F6A5A3F7FDE /* Pods-Thaigi-HVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HVTests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HVTests/Pods-Thaigi-HVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4C4E737D137D2B5B807F093 /* Pods_Thaigi_HV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thaigi_HV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thaigi_HV_Thaigi_HVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE125D732885538700740294 /* LobbyMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyMainCell.swift; sourceTree = "<group>"; };
+		CE125D742885538700740294 /* LobbyMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyMainCell.xib; sourceTree = "<group>"; };
 		CE48BDC6287D26DD007A31D2 /* Thaigi-HV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thaigi-HV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +191,10 @@
 		CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseGroupTableViewController.xib; sourceTree = "<group>"; };
 		CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		CE8B86D12881154200BF516D /* LobbyVenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyVenderCell.swift; sourceTree = "<group>"; };
+		CE8B86D22881154200BF516D /* LobbyVenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyVenderCell.xib; sourceTree = "<group>"; };
+		CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyNoticeCell.swift; sourceTree = "<group>"; };
+		CE8B86D628814CFF00BF516D /* LobbyNoticeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyNoticeCell.xib; sourceTree = "<group>"; };
 		D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV.release.xcconfig"; sourceTree = "<group>"; };
 		E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -435,6 +447,12 @@
 		CE48BFE5287D64ED007A31D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE8B86D12881154200BF516D /* LobbyVenderCell.swift */,
+				CE8B86D22881154200BF516D /* LobbyVenderCell.xib */,
+				CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */,
+				CE8B86D628814CFF00BF516D /* LobbyNoticeCell.xib */,
+				CE125D732885538700740294 /* LobbyMainCell.swift */,
+				CE125D742885538700740294 /* LobbyMainCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -579,8 +597,11 @@
 				CE48BFE0287D4776007A31D2 /* InputTextView.xib in Resources */,
 				CE48BFFA287D6B83007A31D2 /* BasePlainTableViewController.xib in Resources */,
 				CE48BDD6287D26DE007A31D2 /* LaunchScreen.storyboard in Resources */,
+				CE8B86D42881154200BF516D /* LobbyVenderCell.xib in Resources */,
+				CE125D762885538700740294 /* LobbyMainCell.xib in Resources */,
 				CE48BFE2287D4776007A31D2 /* InputTextCCell.xib in Resources */,
 				CE48BFF4287D6A47007A31D2 /* HUDViewController.xib in Resources */,
+				CE8B86D828814CFF00BF516D /* LobbyNoticeCell.xib in Resources */,
 				CE48BFBA287D45D0007A31D2 /* Localizable.strings in Resources */,
 				CE48BDD3287D26DE007A31D2 /* Assets.xcassets in Resources */,
 				CE48BDD1287D26DD007A31D2 /* Main.storyboard in Resources */,
@@ -715,6 +736,8 @@
 			files = (
 				CE48BE2B287D28BC007A31D2 /* ResultExtension.swift in Sources */,
 				CE48BFC5287D4642007A31D2 /* DefaultCellViewModel.swift in Sources */,
+				CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */,
+				CE125D752885538700740294 /* LobbyMainCell.swift in Sources */,
 				CE48BE38287D28BC007A31D2 /* DateExtension.swift in Sources */,
 				CE48BE1B287D28BC007A31D2 /* OptionalExtension.swift in Sources */,
 				CE48BE2C287D28BC007A31D2 /* UIViewExtension.swift in Sources */,
@@ -749,6 +772,7 @@
 				CE48BE1E287D28BC007A31D2 /* UIImageView+GIF.swift in Sources */,
 				CE48BE28287D28BC007A31D2 /* BundleExtension.swift in Sources */,
 				CE48BE24287D28BC007A31D2 /* UITextFieldExtension.swift in Sources */,
+				CE8B86D32881154200BF516D /* LobbyVenderCell.swift in Sources */,
 				CE48BFBC287D45D0007A31D2 /* LanguageManager.swift in Sources */,
 				CE48BFCD287D46D8007A31D2 /* PageViewModelable.swift in Sources */,
 				CE48BFCC287D46D8007A31D2 /* HorizontalCellable.swift in Sources */,
