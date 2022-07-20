@@ -10,6 +10,7 @@ import UIKit.UIViewController
 
 enum Target {
     case loading
+    case login
     case lobby
 }
 
@@ -19,6 +20,10 @@ extension Target{
         case .loading:
             let vc = HUDViewController(nibName: "HUDViewController", bundle: nil)
             return vc
+        case .login:
+            let vc = LoginViewController()
+            let nav = BaseNavigationController(rootViewController: vc)
+            return nav
         case .lobby:
             let vc = LobbyViewController()
             let nav = BaseNavigationController(rootViewController: vc)

@@ -16,6 +16,7 @@ class LobbyViewController: BaseViewController {
     @IBOutlet weak var vipImageView: UIImageView!
     @IBOutlet weak var vipLabel: UILabel! {
         didSet {
+            vipLabel.text = "\(HVLobby.Top.vip) 1 "
             vipLabel.layer.cornerRadius = 7.0
             vipLabel.backgroundColor = UIColor.init(hexString: "622bd2")
             vipLabel.textColor = UIColor.init(hexString: "ffffff")
@@ -43,6 +44,7 @@ class LobbyViewController: BaseViewController {
     @IBOutlet weak var rankImageView: UIImageView!
     @IBOutlet weak var rankLabel: UILabel! {
         didSet {
+            rankLabel.text = HVLobby.Top.rank
             rankLabel.layer.borderColor = UIColor.init(hexString: "5b14cc").cgColor
             rankLabel.layer.borderWidth = 1.0
             rankLabel.textColor = UIColor.init(hexString: "f6eac7")
@@ -59,6 +61,7 @@ class LobbyViewController: BaseViewController {
     @IBOutlet weak var bonusImage: UIImageView!
     @IBOutlet weak var bonusLabel: UILabel! {
         didSet {
+            bonusLabel.text = HVLobby.Footer.bonus
             bonusLabel.textColor = UIColor.init(hexString: "f5debe")
         }
     }
@@ -68,6 +71,7 @@ class LobbyViewController: BaseViewController {
     @IBOutlet weak var messageImage: UIImageView!
     @IBOutlet weak var messageLabel: UILabel! {
         didSet {
+            messageLabel.text = HVLobby.Footer.message
             messageLabel.textColor = UIColor.init(hexString: "f5debe")
         }
     }
@@ -77,6 +81,7 @@ class LobbyViewController: BaseViewController {
     @IBOutlet weak var serviceImage: UIImageView!
     @IBOutlet weak var serviceLabel: UILabel! {
         didSet {
+            serviceLabel.text = HVLobby.Footer.service
             serviceLabel.textColor = UIColor.init(hexString: "f5debe")
         }
     }
@@ -84,11 +89,13 @@ class LobbyViewController: BaseViewController {
     
     @IBOutlet weak var recommendButton: UIButton! {
         didSet {
+            recommendButton.setTitle(HVLobby.Footer.recommend, for: .normal)
             recommendButton.setTitleColor(UIColor.init(hexString: "ffffff"), for: .normal)
         }
     }
     @IBOutlet weak var depositButton: UIButton! {
         didSet {
+            depositButton.setTitle(HVLobby.Footer.deposit, for: .normal)
             depositButton.setTitleColor(UIColor.init(hexString: "ffffff"), for: .normal)
         }
     }

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func toLobby () {
-        ViewControllerManager.present(to: Target.lobby)
+        ViewControllerManager.present(to: Target.login)
     }
 }
 

@@ -53,7 +53,6 @@
 		CE48BE38287D28BC007A31D2 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE19287D28BC007A31D2 /* DateExtension.swift */; };
 		CE48BE39287D28BC007A31D2 /* UITableViewExptension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BE1A287D28BC007A31D2 /* UITableViewExptension.swift */; };
 		CE48BFB9287D45D0007A31D2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFAD287D45D0007A31D2 /* Strings.swift */; };
-		CE48BFBA287D45D0007A31D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFAE287D45D0007A31D2 /* Localizable.strings */; };
 		CE48BFBB287D45D0007A31D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFB0287D45D0007A31D2 /* InfoPlist.strings */; };
 		CE48BFBC287D45D0007A31D2 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFB4287D45D0007A31D2 /* LanguageManager.swift */; };
 		CE48BFC4287D4642007A31D2 /* InputTextViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFC2287D4642007A31D2 /* InputTextViewCellViewModel.swift */; };
@@ -83,6 +82,10 @@
 		CE8B86D42881154200BF516D /* LobbyVenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8B86D22881154200BF516D /* LobbyVenderCell.xib */; };
 		CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */; };
 		CE8B86D828814CFF00BF516D /* LobbyNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8B86D628814CFF00BF516D /* LobbyNoticeCell.xib */; };
+		CEA76D2C2887E59200700E8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA76D2E2887E59200700E8C /* Localizable.strings */; };
+		CEA76D332887E6B200700E8C /* HVString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA76D322887E6B200700E8C /* HVString.swift */; };
+		CEB1B16C2886511B00FC5760 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1B16A2886511B00FC5760 /* LoginViewController.swift */; };
+		CEB1B16D2886511B00FC5760 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB1B16B2886511B00FC5760 /* LoginViewController.xib */; };
 		CF5B10DA12A85D183C3B46C6 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -159,14 +162,10 @@
 		CE48BE19287D28BC007A31D2 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		CE48BE1A287D28BC007A31D2 /* UITableViewExptension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExptension.swift; sourceTree = "<group>"; };
 		CE48BFAD287D45D0007A31D2 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		CE48BFAF287D45D0007A31D2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CE48BFB1287D45D0007A31D2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		CE48BFB2287D45D0007A31D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE48BFB3287D45D0007A31D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE48BFB4287D45D0007A31D2 /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
-		CE48BFB5287D45D0007A31D2 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE48BFB6287D45D0007A31D2 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE48BFB7287D45D0007A31D2 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE48BFB8287D45D0007A31D2 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE48BFC2287D4642007A31D2 /* InputTextViewCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextViewCellViewModel.swift; sourceTree = "<group>"; };
 		CE48BFC3287D4642007A31D2 /* DefaultCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCellViewModel.swift; sourceTree = "<group>"; };
@@ -195,6 +194,13 @@
 		CE8B86D22881154200BF516D /* LobbyVenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyVenderCell.xib; sourceTree = "<group>"; };
 		CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyNoticeCell.swift; sourceTree = "<group>"; };
 		CE8B86D628814CFF00BF516D /* LobbyNoticeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyNoticeCell.xib; sourceTree = "<group>"; };
+		CEA76D2D2887E59200700E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEA76D2F2887E59700700E8C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEA76D302887E59900700E8C /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEA76D312887E59A00700E8C /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEA76D322887E6B200700E8C /* HVString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVString.swift; sourceTree = "<group>"; };
+		CEB1B16A2886511B00FC5760 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CEB1B16B2886511B00FC5760 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV.release.xcconfig"; sourceTree = "<group>"; };
 		E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,6 +256,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE125D7728856BA900740294 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1B16928864FB600FC5760 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		CE48BDBD287D26DD007A31D2 = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +293,7 @@
 				CE48BFAC287D45D0007A31D2 /* Strings */,
 				CE48BFBD287D4626007A31D2 /* Shared */,
 				CE48BDFB287D28BC007A31D2 /* Extension */,
+				CE125D7728856BA900740294 /* Login */,
 				CE48BFE3287D64ED007A31D2 /* Lobby */,
 				CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */,
 				CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */,
@@ -350,7 +365,8 @@
 			isa = PBXGroup;
 			children = (
 				CE48BFAD287D45D0007A31D2 /* Strings.swift */,
-				CE48BFAE287D45D0007A31D2 /* Localizable.strings */,
+				CEA76D322887E6B200700E8C /* HVString.swift */,
+				CEA76D2E2887E59200700E8C /* Localizable.strings */,
 				CE48BFB0287D45D0007A31D2 /* InfoPlist.strings */,
 				CE48BFB4287D45D0007A31D2 /* LanguageManager.swift */,
 			);
@@ -480,6 +496,15 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		CEB1B16928864FB600FC5760 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1B16A2886511B00FC5760 /* LoginViewController.swift */,
+				CEB1B16B2886511B00FC5760 /* LoginViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -592,6 +617,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB1B16D2886511B00FC5760 /* LoginViewController.xib in Resources */,
 				CE48BFFD287D6B83007A31D2 /* BaseGroupTableViewController.xib in Resources */,
 				CE48BFDE287D4776007A31D2 /* InputTextTCell.xib in Resources */,
 				CE48BFE0287D4776007A31D2 /* InputTextView.xib in Resources */,
@@ -602,7 +628,7 @@
 				CE48BFE2287D4776007A31D2 /* InputTextCCell.xib in Resources */,
 				CE48BFF4287D6A47007A31D2 /* HUDViewController.xib in Resources */,
 				CE8B86D828814CFF00BF516D /* LobbyNoticeCell.xib in Resources */,
-				CE48BFBA287D45D0007A31D2 /* Localizable.strings in Resources */,
+				CEA76D2C2887E59200700E8C /* Localizable.strings in Resources */,
 				CE48BDD3287D26DE007A31D2 /* Assets.xcassets in Resources */,
 				CE48BDD1287D26DD007A31D2 /* Main.storyboard in Resources */,
 				CE48BFEC287D64FB007A31D2 /* LobbyViewController.xib in Resources */,
@@ -734,6 +760,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA76D332887E6B200700E8C /* HVString.swift in Sources */,
 				CE48BE2B287D28BC007A31D2 /* ResultExtension.swift in Sources */,
 				CE48BFC5287D4642007A31D2 /* DefaultCellViewModel.swift in Sources */,
 				CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */,
@@ -776,6 +803,7 @@
 				CE48BFBC287D45D0007A31D2 /* LanguageManager.swift in Sources */,
 				CE48BFCD287D46D8007A31D2 /* PageViewModelable.swift in Sources */,
 				CE48BFCC287D46D8007A31D2 /* HorizontalCellable.swift in Sources */,
+				CEB1B16C2886511B00FC5760 /* LoginViewController.swift in Sources */,
 				CE48BE23287D28BC007A31D2 /* CGRect+StringFont.swift in Sources */,
 				CE48BE2D287D28BC007A31D2 /* URLExtension.swift in Sources */,
 				CE48BE21287D28BC007A31D2 /* UIColorExtension.swift in Sources */,
@@ -842,17 +870,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		CE48BFAE287D45D0007A31D2 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE48BFAF287D45D0007A31D2 /* zh-Hans */,
-				CE48BFB2287D45D0007A31D2 /* en */,
-				CE48BFB5287D45D0007A31D2 /* vi */,
-				CE48BFB7287D45D0007A31D2 /* th */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		CE48BFB0287D45D0007A31D2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -862,6 +879,17 @@
 				CE48BFB8287D45D0007A31D2 /* th */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEA76D2E2887E59200700E8C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA76D2D2887E59200700E8C /* en */,
+				CEA76D2F2887E59700700E8C /* zh-Hans */,
+				CEA76D302887E59900700E8C /* th */,
+				CEA76D312887E59A00700E8C /* vi */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
