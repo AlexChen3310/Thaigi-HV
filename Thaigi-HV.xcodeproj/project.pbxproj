@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		00DA1147B4E899366D224202 /* Pods_Thaigi_HVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D782E70E6A8AEF97B77488D /* Pods_Thaigi_HVTests.framework */; };
 		B07845A199DC50B6F8CA502D /* Pods_Thaigi_HV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C4E737D137D2B5B807F093 /* Pods_Thaigi_HV.framework */; };
+		CE0020E6288A98370034B3C7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0020E4288A98370034B3C7 /* RegisterViewController.swift */; };
+		CE0020E7288A98370034B3C7 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0020E5288A98370034B3C7 /* RegisterViewController.xib */; };
 		CE125D752885538700740294 /* LobbyMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125D732885538700740294 /* LobbyMainCell.swift */; };
 		CE125D762885538700740294 /* LobbyMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE125D742885538700740294 /* LobbyMainCell.xib */; };
 		CE48BDCA287D26DD007A31D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */; };
@@ -114,6 +116,8 @@
 		6474B17DD6869F6A5A3F7FDE /* Pods-Thaigi-HVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HVTests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HVTests/Pods-Thaigi-HVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4C4E737D137D2B5B807F093 /* Pods_Thaigi_HV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thaigi_HV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thaigi_HV_Thaigi_HVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0020E4288A98370034B3C7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE0020E5288A98370034B3C7 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		CE125D732885538700740294 /* LobbyMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyMainCell.swift; sourceTree = "<group>"; };
 		CE125D742885538700740294 /* LobbyMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyMainCell.xib; sourceTree = "<group>"; };
 		CE48BDC6287D26DD007A31D2 /* Thaigi-HV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thaigi-HV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +260,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE0020E2288A97FA0034B3C7 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				CE0020E3288A98140034B3C7 /* ViewController */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		CE0020E3288A98140034B3C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE0020E4288A98370034B3C7 /* RegisterViewController.swift */,
+				CE0020E5288A98370034B3C7 /* RegisterViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		CE125D7728856BA900740294 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,6 +314,7 @@
 				CE48BFAC287D45D0007A31D2 /* Strings */,
 				CE48BFBD287D4626007A31D2 /* Shared */,
 				CE48BDFB287D28BC007A31D2 /* Extension */,
+				CE0020E2288A97FA0034B3C7 /* Register */,
 				CE125D7728856BA900740294 /* Login */,
 				CE48BFE3287D64ED007A31D2 /* Lobby */,
 				CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */,
@@ -632,6 +654,7 @@
 				CE48BDD3287D26DE007A31D2 /* Assets.xcassets in Resources */,
 				CE48BDD1287D26DD007A31D2 /* Main.storyboard in Resources */,
 				CE48BFEC287D64FB007A31D2 /* LobbyViewController.xib in Resources */,
+				CE0020E7288A98370034B3C7 /* RegisterViewController.xib in Resources */,
 				CE48BFBB287D45D0007A31D2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -797,6 +820,7 @@
 				CE48BE1F287D28BC007A31D2 /* UIImageViewExtension.swift in Sources */,
 				CE48BFF0287D69F5007A31D2 /* ViewControllerManager.swift in Sources */,
 				CE48BE1E287D28BC007A31D2 /* UIImageView+GIF.swift in Sources */,
+				CE0020E6288A98370034B3C7 /* RegisterViewController.swift in Sources */,
 				CE48BE28287D28BC007A31D2 /* BundleExtension.swift in Sources */,
 				CE48BE24287D28BC007A31D2 /* UITextFieldExtension.swift in Sources */,
 				CE8B86D32881154200BF516D /* LobbyVenderCell.swift in Sources */,

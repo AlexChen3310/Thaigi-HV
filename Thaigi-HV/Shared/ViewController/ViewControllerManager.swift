@@ -11,6 +11,7 @@ import UIKit.UIViewController
 enum Target {
     case loading
     case login
+    case register
     case lobby
 }
 
@@ -24,6 +25,9 @@ extension Target{
             let vc = LoginViewController()
             let nav = BaseNavigationController(rootViewController: vc)
             return nav
+        case .register:
+            let vc = RegisterViewController()
+            return vc
         case .lobby:
             let vc = LobbyViewController()
             let nav = BaseNavigationController(rootViewController: vc)

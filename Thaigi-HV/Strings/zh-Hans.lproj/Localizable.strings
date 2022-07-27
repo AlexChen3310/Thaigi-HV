@@ -17,6 +17,18 @@
 "login_button_register" = "免費註冊";
 "login_button_forget" = "忘記密碼";
 
+//註冊
+"register_title" = "免費註冊";
+
+"register_placeholder_account" = "會員帳號";
+"register_placeholder_password" = "密碼";
+"register_placeholder_password_again" = "確認密碼";
+"register_placeholder_verify" = "請輸入驗證碼";
+
+"register_button_register" = "註冊";
+
+"register_treaty_label" = "我已同意「THIGI網站規章」";
+
 //大廳
 "lobby_top_vip" = "VIP";
 "lobby_top_rank" = "龍虎榜";
@@ -26,4 +38,5 @@
 "lobby_footer_message" = "通知訊息";
 "lobby_footer_service" = "24H客服";
 "lobby_footer_deposit" = "存款";
+
 

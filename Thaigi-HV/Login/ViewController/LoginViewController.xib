@@ -209,7 +209,7 @@
                             </constraints>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x1I-md-MYA">
-                            <rect key="frame" x="24" y="281" width="56" height="17"/>
+                            <rect key="frame" x="24" y="281" width="58" height="17"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="17" id="8Sc-Pj-h8l"/>
                             </constraints>
@@ -219,7 +219,7 @@
                                     <fragment content="免費註冊">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="14" name=".PingFangTC-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                             <integer key="NSUnderline" value="1"/>
                                         </attributes>
                                     </fragment>
@@ -230,7 +230,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T4q-OL-eay">
-                            <rect key="frame" x="297" y="281" width="79" height="17"/>
+                            <rect key="frame" x="295" y="281" width="81" height="17"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="17" id="1sz-y8-4av"/>
                             </constraints>
@@ -240,7 +240,7 @@
                                     <fragment content="  忘記密碼">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="14" name=".PingFangTC-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             <integer key="NSUnderline" value="1"/>
                                         </attributes>

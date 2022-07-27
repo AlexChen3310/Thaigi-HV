@@ -30,14 +30,33 @@ enum HVLogin {
     }
 }
 
-//"lobby_top_vip" = "VIP";
-//"lobby_top_rank" = "龍虎榜";
-//
-//"lobby_footer_recommend" = "以老帶新";
-//"lobby_footer_bonus" = "優惠申請";
-//"lobby_footer_message" = "通知訊息";
-//"lobby_footer_service" = "24H客服";
-//"lobby_footer_deposit" = "存款";
+enum HVRegister {
+    
+    //免費註冊
+    static var title: String { return "register_title".localizable }
+    
+    enum Placeholder {
+        //會員帳號
+        static var account: String { return "register_placeholder_account".localizable }
+        //密碼
+        static var password: String { return "register_placeholder_password".localizable }
+        //確認密碼
+        static var again: String { return "register_placeholder_password_again".localizable }
+        //請輸入驗證碼
+        static var verify: String { return "register_placeholder_verify".localizable }
+    }
+    
+    enum Button {
+        //註冊
+        static var register: String { return "register_button_register".localizable }
+    }
+    
+    enum Treaty {
+        //我已同意「THIGI網站規章」
+        static var treaty: String { return "register_treaty_label".localizable }
+    }
+}
+
 enum HVLobby {
     enum Top {
         //VIP

@@ -131,7 +131,7 @@ class LoginViewController: BaseViewController {
     }
     
     @IBAction func registerAction(_ sender: Any) {
-        
+        ViewControllerManager.present(to: Target.register)
     }
     
     @IBAction func forgetAction(_ sender: Any) {
