@@ -8,13 +8,6 @@
 import Foundation
 import Moya
 
-//let launchProvider = MoyaProvider<LaunchService>(plugins: [
-//    NetworkLoggerPlugin(
-//        configuration: NetworkLoggerPlugin
-//            .Configuration(logOptions: .verbose)),
-//        HeaderPlugin()
-//])
-
 enum LaunchService {
     struct GetWToken: MoyaTargetTypeAdapterProtocol {
         typealias Request = LaunchRequest

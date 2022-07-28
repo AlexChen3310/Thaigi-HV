@@ -113,6 +113,8 @@ class LoginViewController: BaseViewController {
     
     @IBOutlet weak var serviceButton: UIButton!
     
+    let viewModel = LoginViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -123,7 +125,11 @@ class LoginViewController: BaseViewController {
     }
     
     @IBAction func loginAction(_ sneder: Any) {
+        viewModel.updateView = {
+            ViewControllerManager.present(to: Target.lobby)
+        }
         
+        viewModel.bind()
     }
     
     @IBAction func rememberAction(_ sender: Any) {
