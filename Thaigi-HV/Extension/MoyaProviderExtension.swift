@@ -115,7 +115,9 @@ class AppMoyaProvider<T: MoyaTargetTypeAdapterProtocol>: MoyaProvider<T> {
 
 struct HeaderPlugin: PluginType {
     func prepare(_ request: URLRequest, target: TargetType) -> URLRequest {
-        let _request = request
+        var _request = request
+        _request.allHTTPHeaderFields?["wtoken"] = Arguments.wtoken
+        _request.allHTTPHeaderFields?["lang"] = "th"
         return _request
     }
     func willSend(_ request: RequestType, target: TargetType) { }

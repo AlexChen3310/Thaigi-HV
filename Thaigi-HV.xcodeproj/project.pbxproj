@@ -13,6 +13,7 @@
 		CE0020E7288A98370034B3C7 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0020E5288A98370034B3C7 /* RegisterViewController.xib */; };
 		CE125D752885538700740294 /* LobbyMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125D732885538700740294 /* LobbyMainCell.swift */; };
 		CE125D762885538700740294 /* LobbyMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE125D742885538700740294 /* LobbyMainCell.xib */; };
+		CE1702A728911DCE0059EF82 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1702A628911DCE0059EF82 /* LaunchViewController.swift */; };
 		CE48BDCA287D26DD007A31D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */; };
 		CE48BDCC287D26DD007A31D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */; };
 		CE48BDCE287D26DD007A31D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BDCD287D26DD007A31D2 /* ViewController.swift */; };
@@ -80,6 +81,10 @@
 		CE48BFFC287D6B83007A31D2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */; };
 		CE48BFFD287D6B83007A31D2 /* BaseGroupTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */; };
 		CE48BFFE287D6B83007A31D2 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */; };
+		CE6F62AB28922FE700DC0143 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0020E4288A98370034B3C7 /* RegisterViewController.swift */; };
+		CE6F62AE289230F400DC0143 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F62AD289230F400DC0143 /* LaunchViewModel.swift */; };
+		CE6F62B028926A8900DC0143 /* LaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F62AF28926A8900DC0143 /* LaunchService.swift */; };
+		CE6F62B4289270AC00DC0143 /* WtokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F62B3289270AC00DC0143 /* WtokenData.swift */; };
 		CE8B86D32881154200BF516D /* LobbyVenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B86D12881154200BF516D /* LobbyVenderCell.swift */; };
 		CE8B86D42881154200BF516D /* LobbyVenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8B86D22881154200BF516D /* LobbyVenderCell.xib */; };
 		CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */; };
@@ -120,6 +125,7 @@
 		CE0020E5288A98370034B3C7 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		CE125D732885538700740294 /* LobbyMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyMainCell.swift; sourceTree = "<group>"; };
 		CE125D742885538700740294 /* LobbyMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyMainCell.xib; sourceTree = "<group>"; };
+		CE1702A628911DCE0059EF82 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		CE48BDC6287D26DD007A31D2 /* Thaigi-HV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thaigi-HV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +200,9 @@
 		CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseGroupTableViewController.xib; sourceTree = "<group>"; };
 		CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		CE6F62AD289230F400DC0143 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		CE6F62AF28926A8900DC0143 /* LaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchService.swift; sourceTree = "<group>"; };
+		CE6F62B3289270AC00DC0143 /* WtokenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WtokenData.swift; sourceTree = "<group>"; };
 		CE8B86D12881154200BF516D /* LobbyVenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyVenderCell.swift; sourceTree = "<group>"; };
 		CE8B86D22881154200BF516D /* LobbyVenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyVenderCell.xib; sourceTree = "<group>"; };
 		CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyNoticeCell.swift; sourceTree = "<group>"; };
@@ -285,6 +294,25 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		CE1702A428911DAF0059EF82 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F62B22892709C00DC0143 /* DataModel */,
+				CE6F62B128926A9700DC0143 /* Service */,
+				CE6F62AC289230A800DC0143 /* ViewModel */,
+				CE1702A528911DC20059EF82 /* ViewController */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		CE1702A528911DC20059EF82 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE1702A628911DCE0059EF82 /* LaunchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		CE48BDBD287D26DD007A31D2 = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +342,7 @@
 				CE48BFAC287D45D0007A31D2 /* Strings */,
 				CE48BFBD287D4626007A31D2 /* Shared */,
 				CE48BDFB287D28BC007A31D2 /* Extension */,
+				CE1702A428911DAF0059EF82 /* Launch */,
 				CE0020E2288A97FA0034B3C7 /* Register */,
 				CE125D7728856BA900740294 /* Login */,
 				CE48BFE3287D64ED007A31D2 /* Lobby */,
@@ -516,6 +545,30 @@
 				CE48BFEA287D64FB007A31D2 /* LobbyViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE6F62AC289230A800DC0143 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F62AD289230F400DC0143 /* LaunchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE6F62B128926A9700DC0143 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F62AF28926A8900DC0143 /* LaunchService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CE6F62B22892709C00DC0143 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F62B3289270AC00DC0143 /* WtokenData.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 		CEB1B16928864FB600FC5760 /* ViewController */ = {
@@ -811,12 +864,15 @@
 				CE48BE2E287D28BC007A31D2 /* ButtonExtension.swift in Sources */,
 				CE48BE20287D28BC007A31D2 /* CollectionExtension.swift in Sources */,
 				CE48BE36287D28BC007A31D2 /* UIImageExtension.swift in Sources */,
+				CE6F62AE289230F400DC0143 /* LaunchViewModel.swift in Sources */,
 				CE48BE22287D28BC007A31D2 /* NotificationExtension.swift in Sources */,
 				CE48BFC7287D46AA007A31D2 /* ViewModelable.swift in Sources */,
 				CE48BFD5287D4708007A31D2 /* ShareJSONResponse.swift in Sources */,
+				CE1702A728911DCE0059EF82 /* LaunchViewController.swift in Sources */,
 				CE48BFDF287D4776007A31D2 /* InputTextView.swift in Sources */,
 				CE48BFFC287D6B83007A31D2 /* BaseNavigationController.swift in Sources */,
 				CE48BFEB287D64FB007A31D2 /* LobbyViewController.swift in Sources */,
+				CE6F62B028926A8900DC0143 /* LaunchService.swift in Sources */,
 				CE48BE1F287D28BC007A31D2 /* UIImageViewExtension.swift in Sources */,
 				CE48BFF0287D69F5007A31D2 /* ViewControllerManager.swift in Sources */,
 				CE48BE1E287D28BC007A31D2 /* UIImageView+GIF.swift in Sources */,
@@ -826,6 +882,7 @@
 				CE8B86D32881154200BF516D /* LobbyVenderCell.swift in Sources */,
 				CE48BFBC287D45D0007A31D2 /* LanguageManager.swift in Sources */,
 				CE48BFCD287D46D8007A31D2 /* PageViewModelable.swift in Sources */,
+				CE6F62B4289270AC00DC0143 /* WtokenData.swift in Sources */,
 				CE48BFCC287D46D8007A31D2 /* HorizontalCellable.swift in Sources */,
 				CEB1B16C2886511B00FC5760 /* LoginViewController.swift in Sources */,
 				CE48BE23287D28BC007A31D2 /* CGRect+StringFont.swift in Sources */,
@@ -850,6 +907,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE48BDE1287D26DE007A31D2 /* Thaigi_HVTests.swift in Sources */,
+				CE6F62AB28922FE700DC0143 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,7 +1105,8 @@
 				INFOPLIST_FILE = "Thaigi-HV/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1077,7 +1136,8 @@
 				INFOPLIST_FILE = "Thaigi-HV/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

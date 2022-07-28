@@ -7,6 +7,10 @@
 
 import Foundation
 
+enum HVLaunch {
+    static var title: String { return "launch_touch_title".localizable }
+}
+
 enum HVLogin {
     //會員登入
     static var title: String { return "login_logo_title".localizable }

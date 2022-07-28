@@ -6,6 +6,9 @@
   
 */
 
+//Launch
+"launch_touch_title" = "點擊螢幕";
+
 //登入
 "login_logo_title" = "會員登入";
 

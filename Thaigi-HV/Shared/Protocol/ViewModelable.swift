@@ -9,8 +9,9 @@ import Foundation
 import UIKit
 
 protocol ViewModelable {
-    
     func bind()
+    var updateLoadingStatus: ((Bool) -> Void)? { get set }
+    var updateView: (() -> Void)? { get set }
 }
 
 protocol TableViewModelable: ViewModelable {
