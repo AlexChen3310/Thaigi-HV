@@ -125,6 +125,12 @@ class LoginViewController: BaseViewController {
     }
     
     @IBAction func loginAction(_ sneder: Any) {
+        viewModel.updateLoadingStatus = { needShow in
+            DispatchQueue.main.async {
+                self.updateLoadingStatus(needShow: needShow)
+            }
+        }
+        
         viewModel.updateView = {
             ViewControllerManager.present(to: Target.lobby)
         }

@@ -19,7 +19,7 @@ enum LoginService {
     struct Login: MoyaTargetTypeAdapterProtocol {
         typealias Request = LoginRequest.Login
         
-        typealias Success = WtokenResponse
+        typealias Success = LoginResponse
         
         typealias Failure = ShareFailureJSON_Error
         

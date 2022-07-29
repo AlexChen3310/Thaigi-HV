@@ -19,13 +19,15 @@ class LoginViewModel: ViewModelable {
 
 fileprivate extension LoginViewModel {
     func login() {
+        updateLoadingStatus?(true)
         let target = LoginService.Login(request: LoginRequest.Login(account: "testapp01", password: "123456"))
         let provider = AppMoyaProvider(target: target)
         
         provider.request { result in
+            self.updateLoadingStatus?(false)
             switch result {
             case .success(let response):
-                print(response)
+                User.data = response
             case .failure(let error):
                 print(error)
             }
