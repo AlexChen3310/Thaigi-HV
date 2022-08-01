@@ -11,6 +11,10 @@
 		B07845A199DC50B6F8CA502D /* Pods_Thaigi_HV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C4E737D137D2B5B807F093 /* Pods_Thaigi_HV.framework */; };
 		CE0020E6288A98370034B3C7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0020E4288A98370034B3C7 /* RegisterViewController.swift */; };
 		CE0020E7288A98370034B3C7 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0020E5288A98370034B3C7 /* RegisterViewController.xib */; };
+		CE04BCF32897837200D78213 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BCF12897837200D78213 /* ForgetViewController.swift */; };
+		CE04BCF42897837200D78213 /* ForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04BCF22897837200D78213 /* ForgetViewController.xib */; };
+		CE04BCF62897D71300D78213 /* ForgetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BCF52897D71300D78213 /* ForgetService.swift */; };
+		CE04BCF82897D80100D78213 /* ForgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BCF72897D80100D78213 /* ForgetViewModel.swift */; };
 		CE125D752885538700740294 /* LobbyMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125D732885538700740294 /* LobbyMainCell.swift */; };
 		CE125D762885538700740294 /* LobbyMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE125D742885538700740294 /* LobbyMainCell.xib */; };
 		CE1702A728911DCE0059EF82 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1702A628911DCE0059EF82 /* LaunchViewController.swift */; };
@@ -130,6 +134,10 @@
 		B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thaigi_HV_Thaigi_HVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0020E4288A98370034B3C7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CE0020E5288A98370034B3C7 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		CE04BCF12897837200D78213 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		CE04BCF22897837200D78213 /* ForgetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetViewController.xib; sourceTree = "<group>"; };
+		CE04BCF52897D71300D78213 /* ForgetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetService.swift; sourceTree = "<group>"; };
+		CE04BCF72897D80100D78213 /* ForgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewModel.swift; sourceTree = "<group>"; };
 		CE125D732885538700740294 /* LobbyMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyMainCell.swift; sourceTree = "<group>"; };
 		CE125D742885538700740294 /* LobbyMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyMainCell.xib; sourceTree = "<group>"; };
 		CE1702A628911DCE0059EF82 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
@@ -303,6 +311,49 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		CE04BCEC2897719300D78213 /* Forget */ = {
+			isa = PBXGroup;
+			children = (
+				CE04BCF028977D1000D78213 /* ViewModel */,
+				CE04BCEE28977D1000D78213 /* DataModel */,
+				CE04BCED28977D1000D78213 /* Service */,
+				CE04BCEF28977D1000D78213 /* ViewController */,
+			);
+			path = Forget;
+			sourceTree = "<group>";
+		};
+		CE04BCED28977D1000D78213 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE04BCF52897D71300D78213 /* ForgetService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CE04BCEE28977D1000D78213 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CE04BCEF28977D1000D78213 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE04BCF12897837200D78213 /* ForgetViewController.swift */,
+				CE04BCF22897837200D78213 /* ForgetViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE04BCF028977D1000D78213 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE04BCF72897D80100D78213 /* ForgetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		CE125D7728856BA900740294 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +415,7 @@
 				CE48BDFB287D28BC007A31D2 /* Extension */,
 				CE1702A428911DAF0059EF82 /* Launch */,
 				CE0020E2288A97FA0034B3C7 /* Register */,
+				CE04BCEC2897719300D78213 /* Forget */,
 				CE125D7728856BA900740294 /* Login */,
 				CE48BFE3287D64ED007A31D2 /* Lobby */,
 				CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */,
@@ -774,6 +826,7 @@
 				CE8B86D828814CFF00BF516D /* LobbyNoticeCell.xib in Resources */,
 				CEA76D2C2887E59200700E8C /* Localizable.strings in Resources */,
 				CE48BDD3287D26DE007A31D2 /* Assets.xcassets in Resources */,
+				CE04BCF42897837200D78213 /* ForgetViewController.xib in Resources */,
 				CE48BDD1287D26DD007A31D2 /* Main.storyboard in Resources */,
 				CE48BFEC287D64FB007A31D2 /* LobbyViewController.xib in Resources */,
 				CE0020E7288A98370034B3C7 /* RegisterViewController.xib in Resources */,
@@ -919,6 +972,7 @@
 				CE48BE30287D28BC007A31D2 /* BoolExtension.swift in Sources */,
 				CE48BDFA287D28A0007A31D2 /* Arguments.swift in Sources */,
 				CE48BE27287D28BC007A31D2 /* UIViewControllerExtension.swift in Sources */,
+				CE04BCF32897837200D78213 /* ForgetViewController.swift in Sources */,
 				CE48BE31287D28BC007A31D2 /* FloatingExtension.swift in Sources */,
 				CE48BFB9287D45D0007A31D2 /* Strings.swift in Sources */,
 				CE48BDCE287D26DD007A31D2 /* ViewController.swift in Sources */,
@@ -935,6 +989,7 @@
 				CEB728B52893CC4F00D715D6 /* RegisterResponse.swift in Sources */,
 				CEB728AE2893BCE700D715D6 /* HVMemberShared.swift in Sources */,
 				CE48BE20287D28BC007A31D2 /* CollectionExtension.swift in Sources */,
+				CE04BCF82897D80100D78213 /* ForgetViewModel.swift in Sources */,
 				CE6F62BB289276D400DC0143 /* LoginService.swift in Sources */,
 				CE48BE36287D28BC007A31D2 /* UIImageExtension.swift in Sources */,
 				CE6F62AE289230F400DC0143 /* LaunchViewModel.swift in Sources */,
@@ -966,6 +1021,7 @@
 				CE6F62B9289276C900DC0143 /* LoginViewModel.swift in Sources */,
 				CE48BE25287D28BC007A31D2 /* UIApplicationExtension.swift in Sources */,
 				CE48BE35287D28BC007A31D2 /* ErrorExtension.swift in Sources */,
+				CE04BCF62897D71300D78213 /* ForgetService.swift in Sources */,
 				CE48BE1D287D28BC007A31D2 /* AnimationExtension.swift in Sources */,
 				CE48BFE1287D4776007A31D2 /* InputTextTCell.swift in Sources */,
 				CE48BE2F287D28BC007A31D2 /* NSAttritubedStringExtension.swift in Sources */,

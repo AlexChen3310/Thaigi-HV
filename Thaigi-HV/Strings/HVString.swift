@@ -61,6 +61,35 @@ enum HVRegister {
     }
 }
 
+enum HVForget {
+    //忘記密碼
+    static var title: String { return "forget_title".localizable }
+    
+    enum SendType {
+        //手機號碼
+        static var phone: String { return "forget_type_phone".localizable }
+        //電子信箱
+        static var mail: String { return "forget_type_mail".localizable }
+    }
+    
+    enum Placeholder {
+        //會員帳號
+        static var account: String { return "forget_placeholder_account".localizable }
+        //請輸入手機號碼
+        static var phone: String { return "forget_placeholder_phone".localizable }
+        //請輸入電子信箱
+        static var mail: String { return "forget_placeholder_mail".localizable }
+        //請輸入驗證碼
+        static var verify: String { return "forget_placeholder_verify".localizable }
+    }
+    
+    enum Button {
+        //提交
+        static var send: String { return "forget_button_send".localizable }
+    }
+}
+
+
 enum HVLobby {
     enum Top {
         //VIP

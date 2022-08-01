@@ -147,7 +147,7 @@ class LoginViewController: BaseViewController {
     }
     
     @IBAction func forgetAction(_ sender: Any) {
-        
+        ViewControllerManager.present(to: Target.forget)
     }
     
     @IBAction func serviceAction(_ sender: Any) {

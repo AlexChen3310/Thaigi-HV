@@ -32,6 +32,19 @@
 
 "register_treaty_label" = "我已同意「THIGI網站規章」";
 
+//忘記密碼
+"forget_title" = "忘記密碼";
+
+"forget_type_phone" = "手機號碼";
+"forget_type_mail" = "電子信箱";
+
+"forget_placeholder_account" = "會員帳號";
+"forget_placeholder_phone" = "請輸入手機號碼";
+"forget_placeholder_mail" = "請輸入電子信箱";
+"forget_placeholder_verify" = "請輸入驗證碼";
+
+"forget_button_send" = "提交";
+
 //大廳
 "lobby_top_vip" = "VIP";
 "lobby_top_rank" = "龍虎榜";

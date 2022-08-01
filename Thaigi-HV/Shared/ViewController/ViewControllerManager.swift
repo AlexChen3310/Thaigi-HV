@@ -12,6 +12,7 @@ enum Target {
     case loading
     case login
     case register
+    case forget
     case lobby
 }
 
@@ -27,6 +28,9 @@ extension Target{
             return nav
         case .register:
             let vc = RegisterViewController()
+            return vc
+        case .forget:
+            let vc = ForgetViewController()
             return vc
         case .lobby:
             let vc = LobbyViewController()
