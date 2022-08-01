@@ -125,17 +125,7 @@ class LoginViewController: BaseViewController {
     }
     
     @IBAction func loginAction(_ sneder: Any) {
-        viewModel.updateLoadingStatus = { needShow in
-            DispatchQueue.main.async {
-                self.updateLoadingStatus(needShow: needShow)
-            }
-        }
-        
-        viewModel.updateView = {
-            ViewControllerManager.present(to: Target.lobby)
-        }
-        
-        viewModel.bind()
+        viewModel.login()
     }
     
     @IBAction func rememberAction(_ sender: Any) {
@@ -152,6 +142,16 @@ class LoginViewController: BaseViewController {
     
     @IBAction func serviceAction(_ sender: Any) {
         
+    }
+    
+    @IBAction func accountChange(_ sender: Any) {
+        guard let text = accountTextField.text else { return }
+        viewModel.request.account = text
+    }
+    
+    @IBAction func passwordChange(_ sender: Any) {
+        guard let text = passwordTextField.text else { return }
+        viewModel.request.password = text
     }
 }
 
@@ -176,8 +176,21 @@ extension LoginViewController: ViewControllerable {
     }
     
     func setupViewModel() {
+        viewModel.changeButtonStatus = { [weak self] status in
+            guard let strongSelf = self else { return }
+            strongSelf.loginButton.isEnabled = status
+        }
         
+        viewModel.updateLoadingStatus = { needShow in
+            DispatchQueue.main.async {
+                self.updateLoadingStatus(needShow: needShow)
+            }
+        }
+        
+        viewModel.updateView = {
+            ViewControllerManager.present(to: Target.lobby)
+        }
+        
+        viewModel.bind()
     }
-    
-    
 }

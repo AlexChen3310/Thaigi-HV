@@ -10,8 +10,8 @@ import Alamofire
 
 enum LoginRequest {
     struct Login {
-        let account: String
-        let password: String
+        var account: String
+        var password: String
     }
 }
 

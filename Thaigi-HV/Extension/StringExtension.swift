@@ -11,6 +11,14 @@ import UIKit
 import CryptoSwift
 
 extension String {
+    func checkAccount() -> Bool {
+        (5...12).contains(self.count) &&
+            self.range(of: "[^a-zA-Z0-9]", options: .regularExpression).isNil
+    }
+    func checkPassword() -> Bool {
+        (6...).contains(self.count)
+    }
+    
     var nilIfEmpty: String? {
         isEmpty ? nil : self
     }

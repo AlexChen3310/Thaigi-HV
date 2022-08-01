@@ -9,15 +9,26 @@ import Foundation
 
 class LoginViewModel: ViewModelable {
     func bind() {
-        login()
+        changeButtonStatus?(false)
     }
     
     var updateLoadingStatus: ((Bool) -> Void)?
     
     var updateView: (() -> Void)?
+    
+    var changeButtonStatus: ((Bool) -> Void)?
+    
+    var isAccountOK: Bool = false
+    var isPasswordOK: Bool = false
+    
+    var request = LoginRequest.Login(account: "", password: "") {
+        didSet {
+            checkInput()
+        }
+    }
 }
 
-fileprivate extension LoginViewModel {
+extension LoginViewModel {
     func login() {
         updateLoadingStatus?(true)
         let target = LoginService.Login(request: LoginRequest.Login(account: "testapp01", password: "123456"))
@@ -33,5 +44,18 @@ fileprivate extension LoginViewModel {
             }
             self.updateView?()
         }
+    }
+    
+    func checkInput() {
+        isAccountOK = request.account.checkAccount()
+        isPasswordOK = request.password.checkPassword()
+        
+        var isSend: Bool = false
+        
+        if isAccountOK && isPasswordOK {
+            isSend = true
+        }
+        
+        changeButtonStatus?(isSend)
     }
 }
