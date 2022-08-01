@@ -6,8 +6,14 @@
 //
 
 import Foundation
+import UIKit
 
 class RegisterViewModel: ViewModelable {
+    internal init(_ verifyViewModel: VerifyViewModel) {
+        self.verify = verifyViewModel
+    }
+    let verify: VerifyViewModel
+    
     func bind() {
         
     }

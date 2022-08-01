@@ -15,6 +15,9 @@
 		CE04BCF42897837200D78213 /* ForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04BCF22897837200D78213 /* ForgetViewController.xib */; };
 		CE04BCF62897D71300D78213 /* ForgetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BCF52897D71300D78213 /* ForgetService.swift */; };
 		CE04BCF82897D80100D78213 /* ForgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BCF72897D80100D78213 /* ForgetViewModel.swift */; };
+		CE04BCFA2897D9DD00D78213 /* CAPTCHAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BCF92897D9DD00D78213 /* CAPTCHAImage.swift */; };
+		CE04BCFC2897DA1F00D78213 /* UIViewToUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BCFB2897DA1F00D78213 /* UIViewToUIImage.swift */; };
+		CE04BCFE2897DBC400D78213 /* VerifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BCFD2897DBC400D78213 /* VerifyViewModel.swift */; };
 		CE125D752885538700740294 /* LobbyMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125D732885538700740294 /* LobbyMainCell.swift */; };
 		CE125D762885538700740294 /* LobbyMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE125D742885538700740294 /* LobbyMainCell.xib */; };
 		CE1702A728911DCE0059EF82 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1702A628911DCE0059EF82 /* LaunchViewController.swift */; };
@@ -138,6 +141,9 @@
 		CE04BCF22897837200D78213 /* ForgetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetViewController.xib; sourceTree = "<group>"; };
 		CE04BCF52897D71300D78213 /* ForgetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetService.swift; sourceTree = "<group>"; };
 		CE04BCF72897D80100D78213 /* ForgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewModel.swift; sourceTree = "<group>"; };
+		CE04BCF92897D9DD00D78213 /* CAPTCHAImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPTCHAImage.swift; sourceTree = "<group>"; };
+		CE04BCFB2897DA1F00D78213 /* UIViewToUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewToUIImage.swift; sourceTree = "<group>"; };
+		CE04BCFD2897DBC400D78213 /* VerifyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewModel.swift; sourceTree = "<group>"; };
 		CE125D732885538700740294 /* LobbyMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyMainCell.swift; sourceTree = "<group>"; };
 		CE125D742885538700740294 /* LobbyMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyMainCell.xib; sourceTree = "<group>"; };
 		CE1702A628911DCE0059EF82 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
@@ -449,6 +455,8 @@
 		CE48BDFB287D28BC007A31D2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CE04BCFB2897DA1F00D78213 /* UIViewToUIImage.swift */,
+				CE04BCF92897D9DD00D78213 /* CAPTCHAImage.swift */,
 				CE48BDFC287D28BC007A31D2 /* OptionalExtension.swift */,
 				CE48BDFD287D28BC007A31D2 /* NSLayoutConstraintExtension.swift */,
 				CE48BDFE287D28BC007A31D2 /* AnimationExtension.swift */,
@@ -511,6 +519,7 @@
 		CE48BFBE287D4626007A31D2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CE04BCFD2897DBC400D78213 /* VerifyViewModel.swift */,
 				CE48BFC3287D4642007A31D2 /* DefaultCellViewModel.swift */,
 				CE48BFC2287D4642007A31D2 /* InputTextViewCellViewModel.swift */,
 			);
@@ -961,6 +970,7 @@
 				CEA76D332887E6B200700E8C /* HVString.swift in Sources */,
 				CE48BE2B287D28BC007A31D2 /* ResultExtension.swift in Sources */,
 				CE48BFC5287D4642007A31D2 /* DefaultCellViewModel.swift in Sources */,
+				CE04BCFC2897DA1F00D78213 /* UIViewToUIImage.swift in Sources */,
 				CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */,
 				CE125D752885538700740294 /* LobbyMainCell.swift in Sources */,
 				CE48BE38287D28BC007A31D2 /* DateExtension.swift in Sources */,
@@ -988,6 +998,7 @@
 				CE48BE2E287D28BC007A31D2 /* ButtonExtension.swift in Sources */,
 				CEB728B52893CC4F00D715D6 /* RegisterResponse.swift in Sources */,
 				CEB728AE2893BCE700D715D6 /* HVMemberShared.swift in Sources */,
+				CE04BCFA2897D9DD00D78213 /* CAPTCHAImage.swift in Sources */,
 				CE48BE20287D28BC007A31D2 /* CollectionExtension.swift in Sources */,
 				CE04BCF82897D80100D78213 /* ForgetViewModel.swift in Sources */,
 				CE6F62BB289276D400DC0143 /* LoginService.swift in Sources */,
@@ -1001,6 +1012,7 @@
 				CE48BFFC287D6B83007A31D2 /* BaseNavigationController.swift in Sources */,
 				CE48BFEB287D64FB007A31D2 /* LobbyViewController.swift in Sources */,
 				CE6F62B028926A8900DC0143 /* LaunchService.swift in Sources */,
+				CE04BCFE2897DBC400D78213 /* VerifyViewModel.swift in Sources */,
 				CE48BE1F287D28BC007A31D2 /* UIImageViewExtension.swift in Sources */,
 				CE48BFF0287D69F5007A31D2 /* ViewControllerManager.swift in Sources */,
 				CE48BE1E287D28BC007A31D2 /* UIImageView+GIF.swift in Sources */,

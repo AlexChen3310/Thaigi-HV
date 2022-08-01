@@ -9,6 +9,8 @@ import UIKit
 
 class RegisterViewController: BaseViewController {
 
+    let viewModel = RegisterViewModel(try! VerifyViewModel())
+    
     @IBOutlet weak var bgView: UIView! {
         didSet {
             bgView.layer.cornerRadius = 10.0
@@ -116,7 +118,13 @@ class RegisterViewController: BaseViewController {
             verifyTextField.setPlaceHolder(placeHolder: HVRegister.Placeholder.verify, color: UIColor.init(hexString: "a9a9a9"))
         }
     }
-    @IBOutlet weak var verifyCodeImageView: UIImageView!
+    @IBOutlet weak var verifyCodeImageView: UIImageView! {
+        didSet {
+            verifyCodeImageView.layer.cornerRadius = 4
+            verifyCodeImageView.image = viewModel.verify.image
+            verifyCodeImageView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner]
+        }
+    }
     
     @IBOutlet weak var registerButton: UIButton! {
         didSet {
