@@ -97,6 +97,9 @@
 		CEB1B16D2886511B00FC5760 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB1B16B2886511B00FC5760 /* LoginViewController.xib */; };
 		CEB728AC2893B9FA00D715D6 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB728AB2893B9FA00D715D6 /* LoginResponse.swift */; };
 		CEB728AE2893BCE700D715D6 /* HVMemberShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB728AD2893BCE700D715D6 /* HVMemberShared.swift */; };
+		CEB728B32893CA1100D715D6 /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB728B22893CA1100D715D6 /* RegisterService.swift */; };
+		CEB728B52893CC4F00D715D6 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB728B42893CC4F00D715D6 /* RegisterResponse.swift */; };
+		CEB728B72893CC7700D715D6 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB728B62893CC7700D715D6 /* RegisterViewModel.swift */; };
 		CF5B10DA12A85D183C3B46C6 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -222,6 +225,9 @@
 		CEB1B16B2886511B00FC5760 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		CEB728AB2893B9FA00D715D6 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		CEB728AD2893BCE700D715D6 /* HVMemberShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVMemberShared.swift; sourceTree = "<group>"; };
+		CEB728B22893CA1100D715D6 /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
+		CEB728B42893CC4F00D715D6 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		CEB728B62893CC7700D715D6 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV.release.xcconfig"; sourceTree = "<group>"; };
 		E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -280,6 +286,9 @@
 		CE0020E2288A97FA0034B3C7 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				CEB728B12893C77200D715D6 /* DataModel */,
+				CEB728B02893C77200D715D6 /* Service */,
+				CEB728AF2893C58200D715D6 /* ViewModel */,
 				CE0020E3288A98140034B3C7 /* ViewController */,
 			);
 			path = Register;
@@ -616,6 +625,30 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		CEB728AF2893C58200D715D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEB728B62893CC7700D715D6 /* RegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEB728B02893C77200D715D6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CEB728B22893CA1100D715D6 /* RegisterService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CEB728B12893C77200D715D6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEB728B42893CC4F00D715D6 /* RegisterResponse.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -899,6 +932,7 @@
 				CE48BFEE287D69BC007A31D2 /* BaseViewController.swift in Sources */,
 				CE48BFDD287D4776007A31D2 /* InputTextCCell.swift in Sources */,
 				CE48BE2E287D28BC007A31D2 /* ButtonExtension.swift in Sources */,
+				CEB728B52893CC4F00D715D6 /* RegisterResponse.swift in Sources */,
 				CEB728AE2893BCE700D715D6 /* HVMemberShared.swift in Sources */,
 				CE48BE20287D28BC007A31D2 /* CollectionExtension.swift in Sources */,
 				CE6F62BB289276D400DC0143 /* LoginService.swift in Sources */,
@@ -918,9 +952,11 @@
 				CE0020E6288A98370034B3C7 /* RegisterViewController.swift in Sources */,
 				CE48BE28287D28BC007A31D2 /* BundleExtension.swift in Sources */,
 				CE48BE24287D28BC007A31D2 /* UITextFieldExtension.swift in Sources */,
+				CEB728B32893CA1100D715D6 /* RegisterService.swift in Sources */,
 				CE8B86D32881154200BF516D /* LobbyVenderCell.swift in Sources */,
 				CE48BFBC287D45D0007A31D2 /* LanguageManager.swift in Sources */,
 				CE48BFCD287D46D8007A31D2 /* PageViewModelable.swift in Sources */,
+				CEB728B72893CC7700D715D6 /* RegisterViewModel.swift in Sources */,
 				CE6F62B4289270AC00DC0143 /* WtokenData.swift in Sources */,
 				CE48BFCC287D46D8007A31D2 /* HorizontalCellable.swift in Sources */,
 				CEB1B16C2886511B00FC5760 /* LoginViewController.swift in Sources */,
