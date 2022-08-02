@@ -14,6 +14,7 @@ class BaseTableViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.separatorStyle = .none
+        tableView.backgroundColor = .clear
         // Do any additional setup after loading the view.
     }
 

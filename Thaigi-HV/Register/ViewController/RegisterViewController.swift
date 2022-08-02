@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RegisterViewController: BaseViewController {
+class RegisterViewController: BaseTableViewController {
 
     let viewModel = RegisterViewModel(try! VerifyViewModel())
     
@@ -31,98 +31,6 @@ class RegisterViewController: BaseViewController {
             mainView.layer.borderColor = UIColor.init(hexString: "5b14cc").cgColor
             mainView.layer.borderWidth = 1.0
             mainView.backgroundColor = UIColor.init(hexString: "1b0545")
-        }
-    }
-    
-    @IBOutlet weak var accountView: UIView! {
-        didSet {
-            accountView.layer.cornerRadius = 4.0
-            accountView.layer.borderWidth = 1.0
-            accountView.layer.borderColor = UIColor.init(hexString: "5b14cc").cgColor
-            accountView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.3)
-        }
-    }
-    @IBOutlet weak var accountImageView: UIImageView! {
-        didSet {
-            accountImageView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
-            accountImageView.layer.cornerRadius = 4.0
-            accountImageView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.5)
-        }
-    }
-    @IBOutlet weak var accountTextField: UITextField! {
-        didSet {
-            accountTextField.setPlaceHolder(placeHolder: HVRegister.Placeholder.account, color: UIColor.init(hexString: "a9a9a9"))
-        }
-    }
-    
-    @IBOutlet weak var passwordView: UIView! {
-        didSet {
-            passwordView.layer.cornerRadius = 4.0
-            passwordView.layer.borderWidth = 1.0
-            passwordView.layer.borderColor = UIColor.init(hexString: "5b14cc").cgColor
-            passwordView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.3)
-        }
-    }
-    @IBOutlet weak var passwordImageView: UIImageView! {
-        didSet {
-            passwordImageView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
-            passwordImageView.layer.cornerRadius = 4.0
-            passwordImageView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.5)
-        }
-    }
-    @IBOutlet weak var passwordTextField: UITextField! {
-        didSet {
-            passwordTextField.setPlaceHolder(placeHolder: HVRegister.Placeholder.password, color: UIColor.init(hexString: "a9a9a9"))
-        }
-    }
-    
-    @IBOutlet weak var againView: UIView! {
-        didSet {
-            againView.layer.cornerRadius = 4.0
-            againView.layer.borderWidth = 1.0
-            againView.layer.borderColor = UIColor.init(hexString: "5b14cc").cgColor
-            againView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.3)
-        }
-    }
-    @IBOutlet weak var againImageView: UIImageView! {
-        didSet {
-            againImageView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
-            againImageView.layer.cornerRadius = 4.0
-            againImageView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.5)
-        }
-    }
-    
-    @IBOutlet weak var againTextField: UITextField! {
-        didSet {
-            againTextField.setPlaceHolder(placeHolder: HVRegister.Placeholder.again, color: UIColor.init(hexString: "a9a9a9"))
-        }
-    }
-    
-    @IBOutlet weak var verifyView: UIView! {
-        didSet {
-            verifyView.layer.cornerRadius = 4.0
-            verifyView.layer.borderWidth = 1.0
-            verifyView.layer.borderColor = UIColor.init(hexString: "5b14cc").cgColor
-            verifyView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.3)
-        }
-    }
-    @IBOutlet weak var verifyImageView: UIImageView! {
-        didSet {
-            verifyImageView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
-            verifyImageView.layer.cornerRadius = 4.0
-            verifyImageView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.5)
-        }
-    }
-    @IBOutlet weak var verifyTextField: UITextField! {
-        didSet {
-            verifyTextField.setPlaceHolder(placeHolder: HVRegister.Placeholder.verify, color: UIColor.init(hexString: "a9a9a9"))
-        }
-    }
-    @IBOutlet weak var verifyCodeImageView: UIImageView! {
-        didSet {
-            verifyCodeImageView.layer.cornerRadius = 4
-            verifyCodeImageView.image = viewModel.verify.image
-            verifyCodeImageView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner]
         }
     }
     
@@ -158,6 +66,7 @@ class RegisterViewController: BaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        regiestCell()
         setup()
         setupView()
         setupViewModel()
@@ -172,7 +81,12 @@ class RegisterViewController: BaseViewController {
     }
 }
 
-extension RegisterViewController: ViewControllerable {
+extension RegisterViewController: TableViewControllerable {
+    func regiestCell() {
+        tableView.register(InputTextCell.loadNib(), forCellReuseIdentifier: InputTextCell.identifier)
+        tableView.register(InputVerifyCell.loadNib(), forCellReuseIdentifier: InputVerifyCell.identifier)
+    }
+    
     func setup() {
         
     }
@@ -193,6 +107,121 @@ extension RegisterViewController: ViewControllerable {
     }
     
     func setupViewModel() {
+        viewModel.updateButtonStatus = { [weak self] status in
+            guard let strongSelf = self else { return }
+            strongSelf.registerButton.isEnabled = status
+        }
         
+        viewModel.reloadTableView = { [weak self] in
+            guard let strongSelf = self else { return }
+            strongSelf.tableView.reloadData()
+        }
+        viewModel.bind()
     }
+}
+
+extension RegisterViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let data = viewModel.feeds[indexPath.row]
+        
+        switch data {
+        case .account(let model), .password(let model), .again(let model), .verify(let model):
+            if model.error {
+                return 72.0
+            } else {
+                return 40.0
+            }
+        }
+    }
+}
+
+extension RegisterViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel.feeds.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let data = viewModel.feeds[indexPath.row]
+        switch data {
+        case .account(let model):
+            let cell = tableView.dequeueReusableCell(withIdentifier: InputTextCell.identifier, for: indexPath) as! InputTextCell
+            
+            cell.valueChange = { text in
+                model.value = text
+            }
+            
+            cell.endChange = { [weak self] text in
+                guard let strongSelf = self else { return }
+                strongSelf.viewModel.request.account = text
+                model.error = text.checkAccount()
+                tableView.reloadRows(at: [indexPath], with: .none)
+                tableView.scrollToRow(at: indexPath, at: .none, animated: false)
+                strongSelf.viewModel.upButtonStatus()
+            }
+            
+            cell.config(model)
+            
+            return cell
+        case .password(let model):
+            let cell = tableView.dequeueReusableCell(withIdentifier: InputTextCell.identifier, for: indexPath) as! InputTextCell
+            
+            cell.valueChange = { text in
+                model.value = text
+            }
+            
+            cell.endChange = { [weak self] text in
+                guard let strongSelf = self else { return }
+                strongSelf.viewModel.request.password = text
+                model.error = text.checkPassword()
+                tableView.reloadRows(at: [indexPath], with: .none)
+                tableView.scrollToRow(at: indexPath, at: .none, animated: false)
+                strongSelf.viewModel.upButtonStatus()
+            }
+            
+            cell.config(model)
+            
+            return cell
+        case .again(let model):
+            let cell = tableView.dequeueReusableCell(withIdentifier: InputTextCell.identifier, for: indexPath) as! InputTextCell
+            
+            cell.valueChange = { text in
+                model.value = text
+            }
+            
+            cell.endChange = { [weak self] text in
+                guard let strongSelf = self else { return }
+                strongSelf.viewModel.request.password_confirmation = text
+                model.error = strongSelf.viewModel.checkPasswordAgain(text)
+                tableView.reloadRows(at: [indexPath], with: .none)
+                tableView.scrollToRow(at: indexPath, at: .none, animated: false)
+                strongSelf.viewModel.upButtonStatus()
+            }
+            
+            cell.config(model)
+            
+            return cell
+            
+        case .verify(let model):
+            let cell = tableView.dequeueReusableCell(withIdentifier: InputVerifyCell.identifier, for: indexPath) as! InputVerifyCell
+            
+            cell.valueChange = { text in
+                model.value = text
+            }
+            
+            cell.endChange = { [weak self] text in
+                guard let strongSelf = self else { return }
+                strongSelf.viewModel.request.verify = text
+                model.error = strongSelf.viewModel.checkVerify(text)
+                tableView.reloadRows(at: [indexPath], with: .none)
+                tableView.scrollToRow(at: indexPath, at: .none, animated: false)
+                strongSelf.viewModel.upButtonStatus()
+            }
+            
+            cell.config(model)
+            
+            return cell
+        }
+    }
+    
+    
 }

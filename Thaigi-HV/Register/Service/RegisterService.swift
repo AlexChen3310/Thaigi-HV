@@ -10,9 +10,10 @@ import Alamofire
 
 enum RegisterRequest {
     struct Register {
-        let account: String
-        let password: String
-        let password_confirmation: String
+        var account: String
+        var password: String
+        var password_confirmation: String
+        var verify: String
     }
 }
 

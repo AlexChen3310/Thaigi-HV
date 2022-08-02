@@ -59,6 +59,17 @@ enum HVRegister {
         //我已同意「THIGI網站規章」
         static var treaty: String { return "register_treaty_label".localizable }
     }
+
+    enum Error {
+        //帳號由5-16個字母數字組成
+        static var account: String { return "register_error_account".localizable }
+        //密码最少需要6个字元
+        static var password: String { return "register_error_password".localizable }
+        //密码请保持一致
+        static var confirm: String { return "register_error_passwordConfirm".localizable }
+        //验证码有误
+        static var verify: String { return "register_error_verify".localizable }
+    }
 }
 
 enum HVForget {

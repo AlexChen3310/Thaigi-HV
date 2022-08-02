@@ -107,6 +107,11 @@
 		CEB728B32893CA1100D715D6 /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB728B22893CA1100D715D6 /* RegisterService.swift */; };
 		CEB728B52893CC4F00D715D6 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB728B42893CC4F00D715D6 /* RegisterResponse.swift */; };
 		CEB728B72893CC7700D715D6 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB728B62893CC7700D715D6 /* RegisterViewModel.swift */; };
+		CECD10C228990A9100D2BD21 /* InputTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD10C028990A9100D2BD21 /* InputTextCell.swift */; };
+		CECD10C328990A9100D2BD21 /* InputTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECD10C128990A9100D2BD21 /* InputTextCell.xib */; };
+		CECD10C628990B6F00D2BD21 /* InputVerifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD10C428990B6F00D2BD21 /* InputVerifyCell.swift */; };
+		CECD10C728990B6F00D2BD21 /* InputVerifyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECD10C528990B6F00D2BD21 /* InputVerifyCell.xib */; };
+		CECD10C928990F7100D2BD21 /* RegisterCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD10C828990F7100D2BD21 /* RegisterCellViewModel.swift */; };
 		CF5B10DA12A85D183C3B46C6 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -242,6 +247,11 @@
 		CEB728B22893CA1100D715D6 /* RegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
 		CEB728B42893CC4F00D715D6 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
 		CEB728B62893CC7700D715D6 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		CECD10C028990A9100D2BD21 /* InputTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextCell.swift; sourceTree = "<group>"; };
+		CECD10C128990A9100D2BD21 /* InputTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputTextCell.xib; sourceTree = "<group>"; };
+		CECD10C428990B6F00D2BD21 /* InputVerifyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVerifyCell.swift; sourceTree = "<group>"; };
+		CECD10C528990B6F00D2BD21 /* InputVerifyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputVerifyCell.xib; sourceTree = "<group>"; };
+		CECD10C828990F7100D2BD21 /* RegisterCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCellViewModel.swift; sourceTree = "<group>"; };
 		D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV.release.xcconfig"; sourceTree = "<group>"; };
 		E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -570,6 +580,10 @@
 				CE48BFD8287D4774007A31D2 /* InputTextTCell.xib */,
 				CE48BFD9287D4775007A31D2 /* InputTextView.swift */,
 				CE48BFDA287D4775007A31D2 /* InputTextView.xib */,
+				CECD10C028990A9100D2BD21 /* InputTextCell.swift */,
+				CECD10C128990A9100D2BD21 /* InputTextCell.xib */,
+				CECD10C428990B6F00D2BD21 /* InputVerifyCell.swift */,
+				CECD10C528990B6F00D2BD21 /* InputVerifyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -690,6 +704,7 @@
 			isa = PBXGroup;
 			children = (
 				CEB728B62893CC7700D715D6 /* RegisterViewModel.swift */,
+				CECD10C828990F7100D2BD21 /* RegisterCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -835,8 +850,10 @@
 				CE8B86D828814CFF00BF516D /* LobbyNoticeCell.xib in Resources */,
 				CEA76D2C2887E59200700E8C /* Localizable.strings in Resources */,
 				CE48BDD3287D26DE007A31D2 /* Assets.xcassets in Resources */,
+				CECD10C728990B6F00D2BD21 /* InputVerifyCell.xib in Resources */,
 				CE04BCF42897837200D78213 /* ForgetViewController.xib in Resources */,
 				CE48BDD1287D26DD007A31D2 /* Main.storyboard in Resources */,
+				CECD10C328990A9100D2BD21 /* InputTextCell.xib in Resources */,
 				CE48BFEC287D64FB007A31D2 /* LobbyViewController.xib in Resources */,
 				CE0020E7288A98370034B3C7 /* RegisterViewController.xib in Resources */,
 				CE48BFBB287D45D0007A31D2 /* InfoPlist.strings in Resources */,
@@ -971,6 +988,8 @@
 				CE48BE2B287D28BC007A31D2 /* ResultExtension.swift in Sources */,
 				CE48BFC5287D4642007A31D2 /* DefaultCellViewModel.swift in Sources */,
 				CE04BCFC2897DA1F00D78213 /* UIViewToUIImage.swift in Sources */,
+				CECD10C228990A9100D2BD21 /* InputTextCell.swift in Sources */,
+				CECD10C928990F7100D2BD21 /* RegisterCellViewModel.swift in Sources */,
 				CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */,
 				CE125D752885538700740294 /* LobbyMainCell.swift in Sources */,
 				CE48BE38287D28BC007A31D2 /* DateExtension.swift in Sources */,
@@ -979,6 +998,7 @@
 				CE48BE1C287D28BC007A31D2 /* NSLayoutConstraintExtension.swift in Sources */,
 				CE48BE26287D28BC007A31D2 /* CellIdentifier.swift in Sources */,
 				CE48BFC4287D4642007A31D2 /* InputTextViewCellViewModel.swift in Sources */,
+				CECD10C628990B6F00D2BD21 /* InputVerifyCell.swift in Sources */,
 				CE48BE30287D28BC007A31D2 /* BoolExtension.swift in Sources */,
 				CE48BDFA287D28A0007A31D2 /* Arguments.swift in Sources */,
 				CE48BE27287D28BC007A31D2 /* UIViewControllerExtension.swift in Sources */,
