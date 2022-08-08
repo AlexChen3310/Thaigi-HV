@@ -122,3 +122,35 @@ enum HVLobby {
         static var deposit: String { return "lobby_footer_deposit".localizable }
     }
 }
+
+enum HVSetting {
+    //設定
+    static var title: String { return "setting_title".localizable }
+    
+    enum Title {
+        //語系
+        static var language: String { return "setting_language_title".localizable }
+        //音樂
+        static var music: String { return "setting_music_title".localizable }
+        //音效
+        static var sound: String { return "setting_sound_title".localizable }
+        //快速登入
+        static var quick: String { return "setting_quick_title".localizable }
+    }
+    enum Language {
+        //繁體中文
+        static var zh: String { return "setting_type_language_zh".localizable }
+    }
+    enum Switch {
+        //開啟
+        static var on: String { return "setting_switch_on".localizable }
+        //關閉
+        static var off: String { return "setting_switch_off".localizable }
+    }
+    enum Button {
+        //登出
+        static var logout: String { return "setting_button_logout".localizable }
+        //24Ｈ客服
+        static var service: String { return "setting_button_service".localizable }
+    }
+}

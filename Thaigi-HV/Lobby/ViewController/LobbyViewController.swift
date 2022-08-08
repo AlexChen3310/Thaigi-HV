@@ -160,7 +160,7 @@ class LobbyViewController: BaseViewController {
     }
     
     @IBAction func settingAction(_ sender: Any) {
-        
+        ViewControllerManager.present(to: Target.setting, sender: self, animated: false)
     }
     
     @IBAction func recommendAction(_ sender: Any) {
@@ -190,6 +190,7 @@ extension LobbyViewController: ViewControllerable {
     }
     
     func setupView() {
+    
         let colors = [UIColor(hexString: "0e033a").cgColor,
                       UIColor(hexString: "210b5f").cgColor,
                       UIColor(hexString: "3b2292").cgColor]

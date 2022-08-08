@@ -125,7 +125,8 @@ class LoginViewController: BaseViewController {
     }
     
     @IBAction func loginAction(_ sneder: Any) {
-        viewModel.login()
+//        viewModel.login()
+        ViewControllerManager.present(to: Target.lobby)
     }
     
     @IBAction func rememberAction(_ sender: Any) {

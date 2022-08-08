@@ -14,6 +14,7 @@ enum Target {
     case register
     case forget
     case lobby
+    case setting
 }
 
 extension Target{
@@ -35,7 +36,13 @@ extension Target{
         case .lobby:
             let vc = LobbyViewController()
             let nav = BaseNavigationController(rootViewController: vc)
+            nav.navigationBar.isHidden = true
             return nav
+        case .setting:
+            let vc = SettingViewController()
+            vc.modalPresentationStyle = .currentContext
+            vc.view.backgroundColor = UIColor.init(hexString: "000000", alpha: 0.58)
+            return vc
         }
     }
 }

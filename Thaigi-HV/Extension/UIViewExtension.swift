@@ -207,6 +207,22 @@ extension UIView{
         gradient.frame = self.bounds
         self.layer.insertSublayer(gradient, at: 0)
     }
+    
+    func applyMaskGradient(gradientMaker:UIColor.GradientMaker) {
+        
+        for subLayer in self.layer.sublayers ?? [] {
+            
+            if subLayer is CAGradientLayer {
+                subLayer.removeFromSuperlayer()
+                break;
+            }
+        }
+        let gradient = gradientMaker.makeLayer()
+        clipsToBounds = true
+        gradient.frame = self.bounds
+        self.layer.insertSublayer(gradient, at: 0)
+    }
+    
     var screenShot: UIImage?{
         let layer = self.layer
         let renderer = UIGraphicsImageRenderer(size: layer.frame.size)

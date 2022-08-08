@@ -88,12 +88,20 @@
 		CE48BFFC287D6B83007A31D2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */; };
 		CE48BFFD287D6B83007A31D2 /* BaseGroupTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */; };
 		CE48BFFE287D6B83007A31D2 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */; };
+		CE5B420A28A0F16300CCB058 /* SettingSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B420928A0F16300CCB058 /* SettingSelectView.swift */; };
+		CE5B420C28A0F16A00CCB058 /* SettingSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5B420B28A0F16A00CCB058 /* SettingSelectView.xib */; };
+		CE5B420F28A0FFB500CCB058 /* SelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B420D28A0FFB500CCB058 /* SelectCell.swift */; };
+		CE5B421028A0FFB500CCB058 /* SelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5B420E28A0FFB500CCB058 /* SelectCell.xib */; };
 		CE6F62AB28922FE700DC0143 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0020E4288A98370034B3C7 /* RegisterViewController.swift */; };
 		CE6F62AE289230F400DC0143 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F62AD289230F400DC0143 /* LaunchViewModel.swift */; };
 		CE6F62B028926A8900DC0143 /* LaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F62AF28926A8900DC0143 /* LaunchService.swift */; };
 		CE6F62B4289270AC00DC0143 /* WtokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F62B3289270AC00DC0143 /* WtokenData.swift */; };
 		CE6F62B9289276C900DC0143 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F62B8289276C900DC0143 /* LoginViewModel.swift */; };
 		CE6F62BB289276D400DC0143 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F62BA289276D400DC0143 /* LoginService.swift */; };
+		CE786657289A21CC003DE405 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE786655289A21CC003DE405 /* SettingViewController.swift */; };
+		CE786658289A21CC003DE405 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE786656289A21CC003DE405 /* SettingViewController.xib */; };
+		CE78665B289A6813003DE405 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78665A289A6813003DE405 /* SettingViewModel.swift */; };
+		CE78665D289A6BF1003DE405 /* SettingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78665C289A6BF1003DE405 /* SettingCellViewModel.swift */; };
 		CE8B86D32881154200BF516D /* LobbyVenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B86D12881154200BF516D /* LobbyVenderCell.swift */; };
 		CE8B86D42881154200BF516D /* LobbyVenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8B86D22881154200BF516D /* LobbyVenderCell.xib */; };
 		CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */; };
@@ -112,6 +120,10 @@
 		CECD10C628990B6F00D2BD21 /* InputVerifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD10C428990B6F00D2BD21 /* InputVerifyCell.swift */; };
 		CECD10C728990B6F00D2BD21 /* InputVerifyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECD10C528990B6F00D2BD21 /* InputVerifyCell.xib */; };
 		CECD10C928990F7100D2BD21 /* RegisterCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD10C828990F7100D2BD21 /* RegisterCellViewModel.swift */; };
+		CEDDE60E289CF46D0063287B /* SettingSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDE60C289CF46D0063287B /* SettingSelectCell.swift */; };
+		CEDDE60F289CF46D0063287B /* SettingSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDDE60D289CF46D0063287B /* SettingSelectCell.xib */; };
+		CEDDE612289D065B0063287B /* SettingSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDE610289D065B0063287B /* SettingSwitchCell.swift */; };
+		CEDDE613289D065B0063287B /* SettingSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDDE611289D065B0063287B /* SettingSwitchCell.xib */; };
 		CF5B10DA12A85D183C3B46C6 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1509EC3133145B51E8A48 /* Pods_Thaigi_HV_Thaigi_HVUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -226,11 +238,19 @@
 		CE48BFF7287D6B83007A31D2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		CE48BFF8287D6B83007A31D2 /* BaseGroupTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseGroupTableViewController.xib; sourceTree = "<group>"; };
 		CE48BFF9287D6B83007A31D2 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		CE5B420928A0F16300CCB058 /* SettingSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSelectView.swift; sourceTree = "<group>"; };
+		CE5B420B28A0F16A00CCB058 /* SettingSelectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingSelectView.xib; sourceTree = "<group>"; };
+		CE5B420D28A0FFB500CCB058 /* SelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCell.swift; sourceTree = "<group>"; };
+		CE5B420E28A0FFB500CCB058 /* SelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectCell.xib; sourceTree = "<group>"; };
 		CE6F62AD289230F400DC0143 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
 		CE6F62AF28926A8900DC0143 /* LaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchService.swift; sourceTree = "<group>"; };
 		CE6F62B3289270AC00DC0143 /* WtokenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WtokenData.swift; sourceTree = "<group>"; };
 		CE6F62B8289276C900DC0143 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		CE6F62BA289276D400DC0143 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		CE786655289A21CC003DE405 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CE786656289A21CC003DE405 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		CE78665A289A6813003DE405 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		CE78665C289A6BF1003DE405 /* SettingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellViewModel.swift; sourceTree = "<group>"; };
 		CE8B86D12881154200BF516D /* LobbyVenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyVenderCell.swift; sourceTree = "<group>"; };
 		CE8B86D22881154200BF516D /* LobbyVenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LobbyVenderCell.xib; sourceTree = "<group>"; };
 		CE8B86D528814CFF00BF516D /* LobbyNoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyNoticeCell.swift; sourceTree = "<group>"; };
@@ -252,6 +272,10 @@
 		CECD10C428990B6F00D2BD21 /* InputVerifyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVerifyCell.swift; sourceTree = "<group>"; };
 		CECD10C528990B6F00D2BD21 /* InputVerifyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputVerifyCell.xib; sourceTree = "<group>"; };
 		CECD10C828990F7100D2BD21 /* RegisterCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCellViewModel.swift; sourceTree = "<group>"; };
+		CEDDE60C289CF46D0063287B /* SettingSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSelectCell.swift; sourceTree = "<group>"; };
+		CEDDE60D289CF46D0063287B /* SettingSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingSelectCell.xib; sourceTree = "<group>"; };
+		CEDDE610289D065B0063287B /* SettingSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSwitchCell.swift; sourceTree = "<group>"; };
+		CEDDE611289D065B0063287B /* SettingSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingSwitchCell.xib; sourceTree = "<group>"; };
 		D02907314C4513A64B40C93D /* Pods-Thaigi-HV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV.release.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV/Pods-Thaigi-HV.release.xcconfig"; sourceTree = "<group>"; };
 		E0AE70AD75C92379A1293D0E /* Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; path = "Target Support Files/Pods-Thaigi-HV-Thaigi-HVUITests/Pods-Thaigi-HV-Thaigi-HVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -434,6 +458,7 @@
 				CE04BCEC2897719300D78213 /* Forget */,
 				CE125D7728856BA900740294 /* Login */,
 				CE48BFE3287D64ED007A31D2 /* Lobby */,
+				CE786653289A21A5003DE405 /* Setting */,
 				CE48BDC9287D26DD007A31D2 /* AppDelegate.swift */,
 				CE48BDCB287D26DD007A31D2 /* SceneDelegate.swift */,
 				CE48BDCD287D26DD007A31D2 /* ViewController.swift */,
@@ -691,6 +716,49 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		CE786653289A21A5003DE405 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CE78665E289A74CA003DE405 /* View */,
+				CE786659289A572E003DE405 /* ViewModel */,
+				CE786654289A21B6003DE405 /* ViewController */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		CE786654289A21B6003DE405 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE786655289A21CC003DE405 /* SettingViewController.swift */,
+				CE786656289A21CC003DE405 /* SettingViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE786659289A572E003DE405 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE78665A289A6813003DE405 /* SettingViewModel.swift */,
+				CE78665C289A6BF1003DE405 /* SettingCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE78665E289A74CA003DE405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDE60C289CF46D0063287B /* SettingSelectCell.swift */,
+				CEDDE60D289CF46D0063287B /* SettingSelectCell.xib */,
+				CEDDE610289D065B0063287B /* SettingSwitchCell.swift */,
+				CEDDE611289D065B0063287B /* SettingSwitchCell.xib */,
+				CE5B420928A0F16300CCB058 /* SettingSelectView.swift */,
+				CE5B420B28A0F16A00CCB058 /* SettingSelectView.xib */,
+				CE5B420D28A0FFB500CCB058 /* SelectCell.swift */,
+				CE5B420E28A0FFB500CCB058 /* SelectCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CEB1B16928864FB600FC5760 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -837,18 +905,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDDE613289D065B0063287B /* SettingSwitchCell.xib in Resources */,
 				CEB1B16D2886511B00FC5760 /* LoginViewController.xib in Resources */,
 				CE48BFFD287D6B83007A31D2 /* BaseGroupTableViewController.xib in Resources */,
 				CE48BFDE287D4776007A31D2 /* InputTextTCell.xib in Resources */,
 				CE48BFE0287D4776007A31D2 /* InputTextView.xib in Resources */,
 				CE48BFFA287D6B83007A31D2 /* BasePlainTableViewController.xib in Resources */,
 				CE48BDD6287D26DE007A31D2 /* LaunchScreen.storyboard in Resources */,
+				CE5B421028A0FFB500CCB058 /* SelectCell.xib in Resources */,
 				CE8B86D42881154200BF516D /* LobbyVenderCell.xib in Resources */,
+				CE786658289A21CC003DE405 /* SettingViewController.xib in Resources */,
 				CE125D762885538700740294 /* LobbyMainCell.xib in Resources */,
 				CE48BFE2287D4776007A31D2 /* InputTextCCell.xib in Resources */,
 				CE48BFF4287D6A47007A31D2 /* HUDViewController.xib in Resources */,
 				CE8B86D828814CFF00BF516D /* LobbyNoticeCell.xib in Resources */,
+				CEDDE60F289CF46D0063287B /* SettingSelectCell.xib in Resources */,
 				CEA76D2C2887E59200700E8C /* Localizable.strings in Resources */,
+				CE5B420C28A0F16A00CCB058 /* SettingSelectView.xib in Resources */,
 				CE48BDD3287D26DE007A31D2 /* Assets.xcassets in Resources */,
 				CECD10C728990B6F00D2BD21 /* InputVerifyCell.xib in Resources */,
 				CE04BCF42897837200D78213 /* ForgetViewController.xib in Resources */,
@@ -989,8 +1062,10 @@
 				CE48BFC5287D4642007A31D2 /* DefaultCellViewModel.swift in Sources */,
 				CE04BCFC2897DA1F00D78213 /* UIViewToUIImage.swift in Sources */,
 				CECD10C228990A9100D2BD21 /* InputTextCell.swift in Sources */,
+				CEDDE60E289CF46D0063287B /* SettingSelectCell.swift in Sources */,
 				CECD10C928990F7100D2BD21 /* RegisterCellViewModel.swift in Sources */,
 				CE8B86D728814CFF00BF516D /* LobbyNoticeCell.swift in Sources */,
+				CE78665D289A6BF1003DE405 /* SettingCellViewModel.swift in Sources */,
 				CE125D752885538700740294 /* LobbyMainCell.swift in Sources */,
 				CE48BE38287D28BC007A31D2 /* DateExtension.swift in Sources */,
 				CE48BE1B287D28BC007A31D2 /* OptionalExtension.swift in Sources */,
@@ -1019,6 +1094,7 @@
 				CEB728B52893CC4F00D715D6 /* RegisterResponse.swift in Sources */,
 				CEB728AE2893BCE700D715D6 /* HVMemberShared.swift in Sources */,
 				CE04BCFA2897D9DD00D78213 /* CAPTCHAImage.swift in Sources */,
+				CE786657289A21CC003DE405 /* SettingViewController.swift in Sources */,
 				CE48BE20287D28BC007A31D2 /* CollectionExtension.swift in Sources */,
 				CE04BCF82897D80100D78213 /* ForgetViewModel.swift in Sources */,
 				CE6F62BB289276D400DC0143 /* LoginService.swift in Sources */,
@@ -1026,6 +1102,8 @@
 				CE6F62AE289230F400DC0143 /* LaunchViewModel.swift in Sources */,
 				CE48BE22287D28BC007A31D2 /* NotificationExtension.swift in Sources */,
 				CE48BFC7287D46AA007A31D2 /* ViewModelable.swift in Sources */,
+				CE78665B289A6813003DE405 /* SettingViewModel.swift in Sources */,
+				CEDDE612289D065B0063287B /* SettingSwitchCell.swift in Sources */,
 				CE48BFD5287D4708007A31D2 /* ShareJSONResponse.swift in Sources */,
 				CE1702A728911DCE0059EF82 /* LaunchViewController.swift in Sources */,
 				CE48BFDF287D4776007A31D2 /* InputTextView.swift in Sources */,
@@ -1034,6 +1112,7 @@
 				CE6F62B028926A8900DC0143 /* LaunchService.swift in Sources */,
 				CE04BCFE2897DBC400D78213 /* VerifyViewModel.swift in Sources */,
 				CE48BE1F287D28BC007A31D2 /* UIImageViewExtension.swift in Sources */,
+				CE5B420A28A0F16300CCB058 /* SettingSelectView.swift in Sources */,
 				CE48BFF0287D69F5007A31D2 /* ViewControllerManager.swift in Sources */,
 				CE48BE1E287D28BC007A31D2 /* UIImageView+GIF.swift in Sources */,
 				CE0020E6288A98370034B3C7 /* RegisterViewController.swift in Sources */,
@@ -1047,6 +1126,7 @@
 				CE6F62B4289270AC00DC0143 /* WtokenData.swift in Sources */,
 				CE48BFCC287D46D8007A31D2 /* HorizontalCellable.swift in Sources */,
 				CEB1B16C2886511B00FC5760 /* LoginViewController.swift in Sources */,
+				CE5B420F28A0FFB500CCB058 /* SelectCell.swift in Sources */,
 				CE48BE23287D28BC007A31D2 /* CGRect+StringFont.swift in Sources */,
 				CE48BE2D287D28BC007A31D2 /* URLExtension.swift in Sources */,
 				CE48BE21287D28BC007A31D2 /* UIColorExtension.swift in Sources */,
