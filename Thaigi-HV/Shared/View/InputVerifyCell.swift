@@ -24,7 +24,11 @@ class InputVerifyCell: UITableViewCell {
             verifyImageView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.5)
         }
     }
-    @IBOutlet weak var verifyTextField: UITextField!
+    @IBOutlet weak var verifyTextField: UITextField! {
+        didSet {
+            verifyTextField.textColor = UIColor.init(hexString: "ffffff")
+        }
+    }
     @IBOutlet weak var verifyCodeImageView: UIImageView! {
         didSet {
             verifyCodeImageView.layer.cornerRadius = 4

@@ -24,7 +24,11 @@ class InputTextCell: UITableViewCell {
             inputImageView.backgroundColor = UIColor.init(hexString: "ffffff", alpha: 0.5)
         }
     }
-    @IBOutlet weak var inputTextField: UITextField!
+    @IBOutlet weak var inputTextField: UITextField! {
+        didSet {
+            inputTextField.textColor = UIColor.init(hexString: "ffffff")
+        }
+    }
     @IBOutlet weak var errorView: UIView!
     @IBOutlet weak var errorLabel: UILabel!
     
