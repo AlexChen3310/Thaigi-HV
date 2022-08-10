@@ -154,3 +154,57 @@ enum HVSetting {
         static var service: String { return "setting_button_service".localizable }
     }
 }
+
+enum HVPersonal {
+    enum Tab {
+        //個人資料
+        static var personal: String { return "personal_title".localizable }
+    }
+    
+    enum Content {
+        //會員帳號
+        static var account: String { return "personal_title_account".localizable }
+        //名
+        static var name: String { return "personal_title_name".localizable }
+        //姓
+        static var frist: String { return "personal_title_frist_name".localizable }
+        //手機號碼
+        static var phone: String { return "personal_title_phone".localizable }
+        //性別
+        static var gender: String { return "personal_title_gender".localizable }
+        //生日
+        static var birthday: String { return "personal_title_birthday".localizable }
+        //身分證號
+        static var idnumber: String { return "personal_title_idnumber".localizable }
+        //電子信箱
+        static var mail: String { return "personal_title_mail".localizable }
+        //Facebook帳號
+        static var facebook: String { return "personal_title_facebook".localizable }
+        //Line帳號
+        static var line: String { return "personal_title_line".localizable }
+        //銀行
+        static var bank: String { return "personal_title_bank".localizable }
+        //銀行帳號
+        static var bank_account: String { return "personal_title_bank_account".localizable }
+        //持卡人姓名
+        static var bank_name: String { return "personal_title_bank_name".localizable }
+    }
+
+    enum Section {
+        //銀行帳戶信息
+        static var bnak_data: String { return "personal_title_bank_data".localizable }
+        //未有資料
+        static var bank_name: String { return "personal_title_no_data".localizable }
+    }
+
+    enum Button {
+        //保存資料
+        static var save: String { return "personal_button_save".localizable }
+        //個人資料
+        static var user: String { return "personal_button_user".localizable }
+        //下注紀錄
+        static var record: String { return "personal_button_record".localizable }
+        //更改登入密碼
+        static var password: String { return "personal_button_password".localizable }
+    }
+}

@@ -75,3 +75,28 @@
 
 "setting_button_logout" = "登出";
 "setting_button_service" = "24Ｈ客服";
+
+//個人資料
+"personal_title" = "個人資料";
+"personal_title_bank_data" = "銀行帳戶信息";
+"personal_title_no_data" = "未有資料";
+
+"personal_title_account" = "會員帳號";
+"personal_title_name" = "名";
+"personal_title_frist_name" = "姓";
+"personal_title_phone" = "手機號碼";
+"personal_title_gender" = "性別";
+"personal_title_birthday" = "生日";
+"personal_title_idnumber" = "身分證號";
+"personal_title_mail" = "電子信箱";
+"personal_title_facebook" = "Facebook帳號";
+"personal_title_line" = "Line帳號";
+"personal_title_bank" = "銀行";
+"personal_title_bank_account" = "銀行帳號";
+"personal_title_bank_name" = "持卡人姓名";
+
+"personal_button_save" = "保存資料";
+"personal_button_user" = "個人資料";
+"personal_button_record" = "下注紀錄";
+"personal_button_password" = "更改登入密碼";
+

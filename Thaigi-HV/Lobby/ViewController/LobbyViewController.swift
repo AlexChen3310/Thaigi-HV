@@ -140,7 +140,7 @@ class LobbyViewController: BaseViewController {
     }
     
     @IBAction func personalAction(_ sender: Any) {
-        
+        ViewControllerManager.present(to: Target.personal)
     }
     
     @IBAction func vipAction(_ sender: Any) {

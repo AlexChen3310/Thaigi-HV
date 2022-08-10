@@ -15,6 +15,7 @@ enum Target {
     case forget
     case lobby
     case setting
+    case personal
 }
 
 extension Target{
@@ -42,6 +43,10 @@ extension Target{
             let vc = SettingViewController()
             vc.modalPresentationStyle = .currentContext
             vc.view.backgroundColor = UIColor.init(hexString: "000000", alpha: 0.58)
+            return vc
+        case .personal:
+            let storyboard = UIStoryboard(name: "Personal", bundle: Bundle.main)
+            let vc = storyboard.instantiateViewController(withIdentifier: "PersonalViewController") as! PersonalViewController
             return vc
         }
     }
